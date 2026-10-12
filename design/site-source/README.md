@@ -63,16 +63,15 @@ TAGS_OFF=1 node design/site-source/build.js
      Google CSP in `_headers`. On the same build: `ADS_CALL_LABEL` and `ADS_WA_LABEL` (defaults set,
      the two conversion labels from the Ads account); with them every `data-cta` call or WhatsApp
      click also fires a `send_to` conversion.
-   - `ADS_PHONE_LABEL` (default u0RxCNu5nPUcEM_SjsxE, baked 2026-09-12) is meant to turn on Google's
+   - `ADS_PHONE_LABEL` (default u0RxCNu5nPUcEM_SjsxE, baked 2026-09-12) turns on Google's
      "Calls from website visits" number swap: Google replaces the displayed `0480 649 649` with a
-     forwarding number for visitors who came from an ad click AND accepted cookies. **On the live
-     site this has never run.** The live security header (CSP_TAG in build.js) did not allow scripts
-     from gstatic.com, so Google's loader (https://www.gstatic.com/wcm/loader.js) was blocked, and the
-     conversion "Calls from website" has never counted since 2026-09-12. No call was lost: the real
-     number always shows. The fix is IN THE SOURCE since 2026-10-08 (`https://www.gstatic.com` in
-     script-src) and proven on the preview only: after Accept the loader, call-tracking_9.js and the
-     wcm request load with no CSP error (research/67). Live on Fady's word, then one test call
-     (DECISIONS 2026-09-28, research/54). The
+     forwarding number for visitors who came from an ad click AND accepted cookies. **Live since 2026-10-08 13:03**
+     (the site runs CONSENT_MODE=advanced, below). The security header (CSP_TAG in build.js) now allows
+     scripts from gstatic.com (`https://www.gstatic.com` in script-src), so Google's loader
+     (https://www.gstatic.com/wcm/loader.js) loads after Accept, with call-tracking_9.js and the wcm
+     request and no CSP error (research/67). Before that date the loader was blocked and the
+     conversion "Calls from website" had never counted since 2026-09-12; no call was lost, the real
+     number always showed. Fady's one test call on the website number is still owed (DECISIONS 2026-09-28, research/54). The
      conversion action "Calls from website" was created in the Ads account on 2026-09-12 and its
      label is baked in as the default. An empty ADS_PHONE_LABEL, or `TAGS_OFF=1`, removes the
      feature from the output byte for byte. The call-length threshold and whether `call_click` is

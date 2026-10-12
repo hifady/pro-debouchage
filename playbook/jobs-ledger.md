@@ -12,6 +12,8 @@ Example: `Dilbeek, WC, 129, Google, FR`. A lost call counts too: `Kontich, cave,
 | reported 2026-09-01 | about 60 km out | not recorded | unknown | WC unblocked; a camera follow-up of about 280 accepted in principle | 129 | LOG 2026-09-01 |
 | reported 2026-09-08 | Dilbeek area | not recorded | unknown | unblocking | 129 | LOG 2026-09-08 |
 | 2026-09-10 | Kontich | NL | "from the website" | water in the cellar | lost, went elsewhere | LOG 2026-09-10 and 09-14 |
+| 2026-10-10 (Saturday) | not stated | NL | not stated | a lady called; Roro asked Fady to phone her back in Dutch; she did not call back | lost | Fady's words 2026-10-12 |
+| 2026-10-12 (Monday afternoon) | not stated | FR | not stated | a call Roro closed, the technician went | amount not stated | Fady's words 2026-10-12 |
 
 ## Totals Roro gave by phone, not itemised
 - 2026-09-17 (call with Fady, filed 2026-09-18): a call about every 2 to 3 days, most closed, about 1,300 to 1,400 EUR earned since the ads started on 29 Aug. The rows above account for 258 of it. No back-fill is asked for the rest (dropped 2026-09-25, HQ client-count rule): it stays unitemised unless Roro mentions it on his own.
@@ -19,6 +21,8 @@ Example: `Dilbeek, WC, 129, Google, FR`. A lost call counts too: `Kontich, cave,
 - 2026-09-28 (filed that day; a call with Fady, the day of the call not stated): for the third time Roro said, his words as Fady gave them: "Since you raised the price to 30 or when you did that change something happened and I'm not getting calls anymore". No count given. The budget went to 30 on 2026-09-18. Looked into the same day (LOG 2026-09-28).
 
 - 2026-10-05 (filed that evening; a phone call with Fady, the day of the call not stated): Roro said no calls landed yet, as Fady gave it: "Roro told me on a phone call no calls landed yet. I told him that's expected." No count given. It matches the account: 0 calls from the ad's call button and 0 counted taps, 28 Sep to 4 Oct (research/63).
+
+- 2026-10-12 (filed that evening, Fady's words by widget at the Monday read, verbatim): "He's now getting calls, Saturday he called me telling to call a number which they spoke dutch only but that lady eventually didn't call me back but it was a call. Just few hours ago another french call that he closed and the man went. So that calls are definitely started coming again. We need to know how is that happening and double down on this and learn from this". The two rows above. First calls reported since the fix day of 8 Oct (DECISIONS 2026-10-08); matched against the account at the read of 12 Oct (LOG that date).
 
 ## What Google logged over the same period (for matching, research/41)
 - Calls from the ad's call button: 1 Sep 13:00 missed, 4 Sep 10:00 8 s, 9 Sep 10:00 missed, 15 Sep 17:00 7 s, 16 Sep 11:00 39 s (area code 0485). Roro phones missed calls back from his mobile within minutes, which Google cannot see.

@@ -9,3 +9,5 @@ Example (invented): `W40 (2026-09-28 to 2026-10-04) | Mulu 52 booking clicks, 8.
 ## Lines
 
 W40 (2026-09-28 to 2026-10-04) | 0 counted calls or taps, 30 clicks (counting gap: calls made without answering the cookie strip are not seen) | spend 251 EUR | reported: none (no count is asked) | checks: 1 ad disapproved for an hour; FR per-problem ads landed on /fr/ (Brussels fixed 5 Oct)
+
+W41 (2026-10-05 to 2026-10-11) | 4 counted taps (3 call, 1 WhatsApp), 1 logged website call (9 Oct, 4 s), 34 clicks both campaigns | spend 251 EUR | reported: 2 calls (Roro to Fady by phone, 10 and 12 Oct: one lost, one job) | checks ok; Brussels paused since 8 Oct; 8 negatives added 12 Oct

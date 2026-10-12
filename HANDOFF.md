@@ -1,44 +1,42 @@
 # HANDOFF.md
 *Written by the last session for the next one. Overwritten at every close. Budget 4 KB (`wc -c`).*
 
-**Written Thursday 2026-10-08, about 19:15, at the close of the evening `/orch-mid` (the URL step).
-The day is CLOSED: no agent runs, the browser lock is released. From Friday: `/orch`. The weekly
-usage meter was at 97 percent at 13:30 and three browser agents ran since (resets Sun 11 Oct about
-15:00); Fady switches to the backup account at 99.**
+**Written Monday 2026-10-12, about 22:05, at the close of the evening `/orch` (the W41 read).
+The day is CLOSED: no agent runs, the browser lock is released. Next: `/orch` on Mon 19 Oct (W42 read),
+or earlier if Fady opens the folder. The verdict day is Thu 22 Oct.**
 
-## What this evening did (read back; LOG 2026-10-08 second entry, research/70)
-- The three ring FR ad Final URLs are SET at 19:05: WC bouché, Canalisation bouchée, Cave inondée
-  land on their own pages (review Pending, no policy issue). All six per-problem ads now land on
-  their pages; the four emergency ads stay on /fr/ and /nl/. Nothing else on the account moved.
-- It took three runs. 1: the identity check went unanswered (push sent, Fady's phone showed
-  nothing). 2: Fady clicked Confirm himself, then the app's permission check DENIED the agent's
-  follow-up "Save ad" click (coordinate click) and the agent closed the tab, throwing away the
-  confirmed edit. 3: ONE tab, Save by element ref, no identity check fired at all, done.
-- Fady, annoyed, twice: when he is outside the agent relays the number and clicks; make less work
-  for him; "which app safety check". Both notes are in FOR-HQ.md (2026-10-08, two entries). No
-  rule in this folder changed (a session may not edit its rulebook).
-- The fix day's state (13:30 handoff) stands: Brussels paused at 149.84, ring hands off until
-  Thu 22 Oct, counting live since 13:03, Roro's report drafted and not yet sent by Fady.
+## What tonight did (read back; LOG 2026-10-12, research/71)
+- Fady: Roro's calls are back (Sat 10 Oct NL lost, Mon 12 Oct FR job). The account agrees: since
+  the fix of 8 Oct, 2 counted call taps, a logged 4-second WEBSITE call Fri 9 Oct 17:00 (the first
+  since 16 Sep, so the call loader runs), 3 call-button taps on 12 Oct. FR | Canalisation bouchée
+  on its own page is the FR converter; NL emergency is the Dutch entry; the ring is limited by
+  search volume, not budget.
+- One account change: 8 campaign negatives on the ring (48 rows), read back. Nothing else moved.
+  The 400 EUR threshold charge went through 9 Oct; balance 91.79; net cost to date 1,243.97.
+- Registers unchanged. Search Console 3 clicks, 51 impressions, indexing unchanged. 13 playbook
+  drifts fixed. AGENTS.md section 14 edit refused again (parked, HQ pass 6 Nov).
+- Route lesson: the Browser pane held NO Google session here (sign-in page), so Ads reads fall back
+  to Chrome fady.be until Fady signs hi@ in there (FOR-FADY 4). The info@ Chrome window opened by
+  chrome.cjs did not connect to the extension; Search Console was read under hi@ (it has access).
 
 ## Next session, in this order
-1. Mon 12 Oct, the weekly read (read only, one Chrome agent): the call log and the call asset
-   columns (the forwarding-number question, NOW.md), "Calls from website" and the Tag status, the
-   three new URLs still Eligible after review, Brussels stays paused, VIES/KBO, Search Console.
-   SCORE line W41.
-2. Thu 22 Oct: the verdict on the call log and Roro's word; if no call, Manual CPC phones first
-   (research/64 option 2a), Fady's typed go.
+1. Mon 19 Oct, `/orch`: the W42 read (read only, one browser agent, Chrome fady.be unless the pane
+   is signed in): the call log for Roro's two calls, the call asset's reporting switch and all-time
+   figures, the Tag status card (all not read 12 Oct), the name asset Eligible (after 19 Oct), the
+   price sitelink, Brussels still paused, the promo. VIES/KBO poll, Search Console. SCORE W42.
+2. Thu 22 Oct, the verdict on the call log and Roro's word, then the agenda ONE AT A TIME
+   (NOW.md, ads-program.md 10): NL per-problem groups on; second RSA for FR | Canalisation bouchée;
+   the call-conversion rule to 1 second; "société de débouchage" pause if still no tap; the Brussels
+   restart proposed by widget (a switch-on, Fady's typed go). If no call: Manual CPC, Fady's go.
 
-## Brief tips that worked tonight (research/70 holds the exact mechanics)
-- Browser 1 is the fady.be window; account picker, then
-  https://ads.google.com/aw/ads?ocid=8499099575&campaignId=24185896982 opens the ring Ads list;
-  tick the row, pencil, Final URL, "Save ad" found by the find tool and clicked BY REF.
-- A brief that saves on a live account: ONE tab for the whole job, never closed while a form is
-  open, verify by navigating in the same tab; if a Save click is denied, leave the form open and
-  tell main, so Fady's work is one click.
-- A subagent's SendMessage to main arrives only when main's turn is free; the identity-check
-  signal reached the session in time tonight, but assume it may not, and have Fady watch the window.
+## Brief tips that worked tonight
+- A read-only Ads brief with the views listed by letter and the date ranges named got a full read in
+  18 minutes; a negatives brief that names who decided (DECISIONS 2026-09-23, the hands-off
+  exception in NOW.md) and the earlier dates of the same edit class went through with no refusal
+  and no identity dialog; Save by element ref, read-back after a full reload.
+- Ask every browser agent to state the route it used and the account read FROM THE PAGE.
 
 ## Waiting on whom
-**Fady:** FOR-FADY.md (the Roro message first, the test call, the video, PD-10, PD-12).
-**Roro:** nothing. **Clocks:** the 400 EUR charge within days; Mon 12 Oct read; 15 Oct passkeys;
-19 Oct name asset; 22 Oct verdict; 26 Oct promo; 15 Nov registry.
+**Fady:** FOR-FADY.md (Roro's report, the test call, the test tap, the pane sign-in, the video).
+**Roro:** nothing. **Clocks:** 15 Oct passkeys; 19 Oct read and name asset; 22 Oct verdict; 26 Oct
+promo; 1 Nov or 500 EUR the next charge; 15 Nov registry.
