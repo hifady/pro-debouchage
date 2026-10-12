@@ -1,6 +1,6 @@
 # FOR-FADY.md, the one file for you
 
-*Kit template, 2026-09-29. Everything that needs your eye or your decision, and nothing else. Straight facts. At most 8,000 bytes. Every session rewrites it at its close (`/eof` step 6). In a fresh Opus session, type `/decide`. Nothing of yours is listed in a second place: the open-items file points here in one line. Last rewrite: Monday 2026-10-12 about 21:40, at the close of the weekly read.*
+*Kit template, 2026-09-29. Everything that needs your eye or your decision, and nothing else. Straight facts. At most 8,000 bytes. Every session rewrites it at its close (`/eof` step 6). In a fresh Opus session, type `/decide`. Nothing of yours is listed in a second place: the open-items file points here in one line. Last rewrite: Monday 2026-10-12 about 22:55, at the final close.*
 
 ## 1. Look at this
 
@@ -12,20 +12,21 @@
 
 ## 2. Waiting for you
 
-1. **Send Roro the WhatsApp report**, brought to Monday 12 Oct: `assets/prepared/roro-report-2026-10-12.md` (shown to you in the chat of 12 Oct). You send it yourself; no typed go needed.
-2. **One test tap on the ad's call button**, from your phone, on a real Google search, once: it costs one click and proves the forwarding number reaches Roro. On 12 Oct about 22:25 you searched and saw no ad: the ring had spent its 30 euro for the day by then (31.10 at 22:24). Try again in the morning, when the day's budget is fresh. Tell Roro first or hang up when he answers. (The website test call you made on 12 Oct about 22:25 is done; its trace in the call log is read at the next session.)
-3. **Passkeys, after 15 October:** Google Ads requires a passkey for sensitive actions from that date; hi@fady.be holds one. One look that the Ads login still works.
-4. **The third Google profile video** with Roro at the depot, the v3 shot list (`assets/prepared/gbp-video-brief.md`). No date yet. The Maps listing is the biggest free source of calls and stays invisible until it passes.
-5. **Give Roro his papers:** the parking guide (`assets/prepared/roro-parking-guide-2026-09-28.pdf`).
-6. **Two questions for Roro:** does he take Bancontact on the spot (the invoice prints it)? Is his small camera a Rausch (the page says Rausch, his form said Rioned)? And one for you: is Steph Roro's wife?
-7. **The picture pick (PD-12):** `assets/prepared/contact-sheet-2026-10-01.jpg`, 33 files. Name the IDs to keep, the rest goes to `to-delete/`.
-8. **PD-10, the AGENTS.md cleanup**, plus the section 14 identity-check sentence (your word of 8 Oct): the app refused the session's own edit again tonight. The HQ pass of 6 Nov does it, or your double-click.
-9. **The credit-note pack:** explain it to Roro by phone (`assets/prepared/credit-note-talking-points-2026-09-14.md`), then hand it over.
-10. **The accountant questions**, in writing (`playbook/invoicing-flow.md` section 5).
-11. **Infomaniak, next login:** confirm the organisation postal address as it is (the legal seat).
-12. **The business card in Figma** (`design/business-card/README.md`). Print waits.
+1. **One test tap on the ad's call button**, from your phone, on a real Google search, once: it costs one click and proves the forwarding number reaches Roro. On 12 Oct about 22:25 you searched and saw no ad: the ring had spent its 30 euro for the day by then (31.10 at 22:24). Try again in the morning, when the day's budget is fresh. Tell Roro first or hang up when he answers. (The website test call you made on 12 Oct about 22:25 is done; its trace in the call log is read at the next session.)
+2. **Passkeys, after 15 October:** Google Ads requires a passkey for sensitive actions from that date; hi@fady.be holds one. One look that the Ads login still works.
+3. **The third Google profile video** with Roro at the depot, the v3 shot list (`assets/prepared/gbp-video-brief.md`). No date yet. The Maps listing is the biggest free source of calls and stays invisible until it passes.
+4. **Give Roro his papers:** the parking guide (`assets/prepared/roro-parking-guide-2026-09-28.pdf`).
+5. **Two questions for Roro:** does he take Bancontact on the spot (the invoice prints it)? Is his small camera a Rausch (the page says Rausch, his form said Rioned)? And one for you: is Steph Roro's wife?
+6. **The picture pick (PD-12):** `assets/prepared/contact-sheet-2026-10-01.jpg`, 33 files. Name the IDs to keep, the rest goes to `to-delete/`.
+7. **PD-10, the AGENTS.md cleanup**, plus the section 14 identity-check sentence (your word of 8 Oct): the app refused the session's own edit again tonight. The HQ pass of 6 Nov does it, or your double-click.
+8. **The credit-note pack:** explain it to Roro by phone (`assets/prepared/credit-note-talking-points-2026-09-14.md`), then hand it over.
+9. **The accountant questions**, in writing (`playbook/invoicing-flow.md` section 5).
+10. **Infomaniak, next login:** confirm the organisation postal address as it is (the legal seat).
+11. **The business card in Figma** (`design/business-card/README.md`). Print waits.
 
 ## 3. Your answers
+
+- 2026-10-12, about 22:55, by chat: "The report was mentioned on a phone call. Close the day for good." (Roro has the 8 Oct report by phone; the WhatsApp text is no longer owed.)
 
 - 2026-10-12, about 20:55, by widget: "Go, all of it" for the weekly read, and: "He's now getting calls, Saturday he called me telling to call a number which they spoke dutch only but that lady eventually didn't call me back but it was a call. Just few hours ago another french call that he closed and the man went. So that calls are definitely started coming again. We need to know how is that happening and double down on this and learn from this, because so far we have data and we have tested many things and we need to make sure we keep growing and getting him more calls."
 - 2026-10-08, 18:55 and 19:02, by widget: "Now I'm at home, I'll click that myself. If I'm outside you click and I get the number. But my phone didn't show me anything." and "Which app safety check? Why are you making it so difficult here? Note again to the hq. ... you need to make less work for me as much as you can ... leaving me click to saves and not accepting my permission to click confirm it's me when I was outside."

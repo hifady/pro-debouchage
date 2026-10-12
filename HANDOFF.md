@@ -43,6 +43,6 @@ or earlier if Fady opens the folder. The verdict day is Thu 22 Oct.**
 - Ask every browser agent to state the route it used and the account read FROM THE PAGE.
 
 ## Waiting on whom
-**Fady:** FOR-FADY.md (Roro's report, the test call, the test tap, the pane sign-in, the video).
+**Fady:** FOR-FADY.md (the ad test tap, the video, the passkey look); Roro has the report by phone.
 **Roro:** nothing. **Clocks:** 15 Oct passkeys; 19 Oct read and name asset; 22 Oct verdict; 26 Oct
 promo; 1 Nov or 500 EUR the next charge; 15 Nov registry.
