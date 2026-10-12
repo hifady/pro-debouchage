@@ -12,20 +12,18 @@
 
 ## 2. Waiting for you
 
-1. **Send Roro the WhatsApp report of 8 Oct** (`assets/prepared/roro-report-2026-10-08.md`): still worth sending, with one line added by you that the calls are back since the weekend. You send it yourself; no typed go needed.
-2. **One test call on the website's number**, from your phone, after tapping "accept" on the cookie card. It proves the website counter end to end (owed since 28 Sep; the 9 Oct call shows the loader runs, your call confirms the count).
-3. **One test tap on the ad's call button**, from your phone, on a real Google search ("déboucheur bruxelles" or similar), once: it costs one click and proves the forwarding number reaches Roro. Tell Roro first or hang up when he answers.
-4. **Sign hi@fady.be in to the in-app Browser pane once** (the HQ's new route of 11 Oct): tonight the pane showed a sign-in page, so the read went through Chrome. Open the pane in a session on this folder, go to ads.google.com, sign in as hi@fady.be. Until then Chrome stays the route.
-5. **Passkeys, after 15 October:** Google Ads requires a passkey for sensitive actions from that date; hi@fady.be holds one. One look that the Ads login still works.
-6. **The third Google profile video** with Roro at the depot, the v3 shot list (`assets/prepared/gbp-video-brief.md`). No date yet. The Maps listing is the biggest free source of calls and stays invisible until it passes.
-7. **Give Roro his papers:** the parking guide (`assets/prepared/roro-parking-guide-2026-09-28.pdf`).
-8. **Two questions for Roro:** does he take Bancontact on the spot (the invoice prints it)? Is his small camera a Rausch (the page says Rausch, his form said Rioned)? And one for you: is Steph Roro's wife?
-9. **The picture pick (PD-12):** `assets/prepared/contact-sheet-2026-10-01.jpg`, 33 files. Name the IDs to keep, the rest goes to `to-delete/`.
-10. **PD-10, the AGENTS.md cleanup**, plus the section 14 identity-check sentence (your word of 8 Oct): the app refused the session's own edit again tonight. The HQ pass of 6 Nov does it, or your double-click.
-11. **The credit-note pack:** explain it to Roro by phone (`assets/prepared/credit-note-talking-points-2026-09-14.md`), then hand it over.
-12. **The accountant questions**, in writing (`playbook/invoicing-flow.md` section 5).
-13. **Infomaniak, next login:** confirm the organisation postal address as it is (the legal seat).
-14. **The business card in Figma** (`design/business-card/README.md`). Print waits.
+1. **Send Roro the WhatsApp report**, brought to Monday 12 Oct: `assets/prepared/roro-report-2026-10-12.md` (shown to you in the chat of 12 Oct). You send it yourself; no typed go needed.
+2. **One test tap on the ad's call button**, from your phone, on a real Google search, once: it costs one click and proves the forwarding number reaches Roro. On 12 Oct about 22:25 you searched and saw no ad: the ring had spent its 30 euro for the day by then (31.10 at 22:24). Try again in the morning, when the day's budget is fresh. Tell Roro first or hang up when he answers. (The website test call you made on 12 Oct about 22:25 is done; its trace in the call log is read at the next session.)
+3. **Passkeys, after 15 October:** Google Ads requires a passkey for sensitive actions from that date; hi@fady.be holds one. One look that the Ads login still works.
+4. **The third Google profile video** with Roro at the depot, the v3 shot list (`assets/prepared/gbp-video-brief.md`). No date yet. The Maps listing is the biggest free source of calls and stays invisible until it passes.
+5. **Give Roro his papers:** the parking guide (`assets/prepared/roro-parking-guide-2026-09-28.pdf`).
+6. **Two questions for Roro:** does he take Bancontact on the spot (the invoice prints it)? Is his small camera a Rausch (the page says Rausch, his form said Rioned)? And one for you: is Steph Roro's wife?
+7. **The picture pick (PD-12):** `assets/prepared/contact-sheet-2026-10-01.jpg`, 33 files. Name the IDs to keep, the rest goes to `to-delete/`.
+8. **PD-10, the AGENTS.md cleanup**, plus the section 14 identity-check sentence (your word of 8 Oct): the app refused the session's own edit again tonight. The HQ pass of 6 Nov does it, or your double-click.
+9. **The credit-note pack:** explain it to Roro by phone (`assets/prepared/credit-note-talking-points-2026-09-14.md`), then hand it over.
+10. **The accountant questions**, in writing (`playbook/invoicing-flow.md` section 5).
+11. **Infomaniak, next login:** confirm the organisation postal address as it is (the legal seat).
+12. **The business card in Figma** (`design/business-card/README.md`). Print waits.
 
 ## 3. Your answers
 

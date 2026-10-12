@@ -1,7 +1,7 @@
 # HANDOFF.md
 *Written by the last session for the next one. Overwritten at every close. Budget 4 KB (`wc -c`).*
 
-**Written Monday 2026-10-12, about 22:05, at the close of the evening `/orch` (the W41 read).
+**Written Monday 2026-10-12, about 22:50, at the close of the evening `/orch` (the W41 read, reopened 22:10 for the report, the pane sign-in and the website test call).
 The day is CLOSED: no agent runs, the browser lock is released. Next: `/orch` on Mon 19 Oct (W42 read),
 or earlier if Fady opens the folder. The verdict day is Thu 22 Oct.**
 
@@ -15,9 +15,15 @@ or earlier if Fady opens the folder. The verdict day is Thu 22 Oct.**
   The 400 EUR threshold charge went through 9 Oct; balance 91.79; net cost to date 1,243.97.
 - Registers unchanged. Search Console 3 clicks, 51 impressions, indexing unchanged. 13 playbook
   drifts fixed. AGENTS.md section 14 edit refused again (parked, HQ pass 6 Nov).
-- Route lesson: the Browser pane held NO Google session here (sign-in page), so Ads reads fall back
-  to Chrome fady.be until Fady signs hi@ in there (FOR-FADY 4). The info@ Chrome window opened by
-  chrome.cjs did not connect to the extension; Search Console was read under hi@ (it has access).
+- Route: the pane held no Google session at 20:56 (Chrome fallback), then Fady SIGNED hi@fady.be IN
+  to the pane at 22:20 and a pane agent read the account under it. FIRST BROWSER STEP NEXT SESSION:
+  open the pane on ads.google.com; if it still reads the account, the pane is the route; if a sign-in
+  page shows, Chrome fady.be and one line to the HQ. The info@ Chrome window opened by chrome.cjs
+  did not connect; Search Console was read under hi@ (it has access).
+- Fady made the website test call about 22:25 (one ring): read its trace in Call details next session.
+  He saw no ad at 22:25 because the ring had spent 31.10 of 30.00 by 22:24; the ad test tap moves to a
+  morning. Ad Preview said "no keywords matched" for [déboucheur bruxelles]: re-check INSIDE the client
+  account (it may have run at manager level) before reading anything into it. Research/71 section 10.
 
 ## Next session, in this order
 1. Mon 19 Oct, `/orch`: the W42 read (read only, one browser agent, Chrome fady.be unless the pane
