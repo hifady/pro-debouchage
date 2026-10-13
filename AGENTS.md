@@ -1,6 +1,6 @@
 # AGENTS.md
 
-*The working rules for this folder. Any tool with access to the folder reads this first. Created 2026-08-22, the kickoff session, modelled on the taxi business rules (`../taxi-business/AGENTS.md`) and deliberately smaller. Procedure lives in the three skills, facts live in the owner files below, this file only carries rules.*
+*The working rules for this folder. Any tool with access to the folder reads this first. Created 2026-08-22, the kickoff session, modelled on the taxi business rules (`../../taxi-business/AGENTS.md`) and deliberately smaller. Procedure lives in the three skills, facts live in the owner files below, this file only carries rules.*
 
 ## 1. The project, in three sentences
 
@@ -64,7 +64,7 @@ Pro Débouchage is a 24/7 drain-unblocking, sewer cleaning, camera inspection, s
 3. **No ad-ROI promises** to Roro before real numbers exist.
 4. **The Business Profile is a gate:** no address or name goes onto Google before the address question (section 1 of `playbook/launch-plan.md`) is settled.
 5. **One live page, one design.** Changes are made in the `design/site-source/` source, rebuilt and redeployed. Nothing is edited on the live host by hand.
-6. **`../taxi-business/` is read-only from here.** We learn from it, we never change it, and its accounts are never reused for this client (see `playbook/separation.md`).
+6. **`../../taxi-business/` is read-only from here.** We learn from it, we never change it, and its accounts are never reused for this client (see `playbook/separation.md`).
 
 ## 6. Writing rules
 

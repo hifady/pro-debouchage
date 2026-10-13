@@ -82,7 +82,7 @@ the live-surface step 4, the overview headers, the Models bullet, the typed go f
 - **Close the day yourself when it is done (Fady, 2026-09-22).** When everything planned for the day is done and nothing in this session waits on Fady, run the steps of `/eof` without being asked. Otherwise close on his word. Every close ends with ONE paragraph for Fady alone, three lines at most: what only he must do or decide, or "Nothing for you." He skims everything above it.
 
 ## Never
-- No em dashes in anything new. No git, no `save-to-cloud.cmd` by hand; the backup's one door is `/eof` step 8. Nothing edited in `../taxi-business/`.
+- No em dashes in anything new. No git, no `save-to-cloud.cmd` by hand; the backup's one door is `/eof` step 8. Nothing edited in `../../taxi-business/`.
 - Never propose what a file marks as decided against, dropped or gated, without naming the gate.
 - Never repeat a fact from memory that a file owns: open the owner and read it.
 - Never change the session's own permission mode, and never edit a permission rule or a hook to get

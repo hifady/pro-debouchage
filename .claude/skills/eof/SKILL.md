@@ -53,7 +53,7 @@ sections 7 (byte budgets, rewrite in place), 8 (logging) and 9 (close it or file
    Then **the closing block**, always the last thing said, with no tool call after it (text written before a tool call may reach Fady only as a short summary): the day summary of step 1; the size line of step 3 and the fact-sync line of step 4; one line "what was logged and where" (or "Nothing to log this session"); the save's one line as it came. The very last paragraph is for Fady alone (2026-09-22): three lines at most, only what he must do or decide, or "Nothing for you." It says in a few words that the folder is saved when the line said SAVED or UP TO DATE; when it said NOT SAVED, or the save was skipped, one of those lines asks for his double-click on `save-to-cloud.cmd` and says why in a few words (a reminder, never an open item). He skims everything above it.
 
 ## Never
-- No em dashes in anything new. No git, no `save-to-cloud.cmd` by hand; the backup's one door is step 8. Nothing edited in `../taxi-business/`.
+- No em dashes in anything new. No git, no `save-to-cloud.cmd` by hand; the backup's one door is step 8. Nothing edited in `../../taxi-business/`.
 - Never rewrite `LOG.md` or `DECISIONS.md` history; append only.
 - No money moves, no ad changes, no supplier orders, no customer mails from a close. (Kit line, added
   2026-09-20.)
