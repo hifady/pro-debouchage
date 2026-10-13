@@ -54,7 +54,7 @@ the dashed trim guide is hidden on the print sheet.
 ```
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu --hide-scrollbars ^
   --screenshot=preview.png --window-size=1880,1360 --virtual-time-budget=4000 ^
-  "file:///C:/Users/fadya/Desktop/pro-debouchage/design/business-card/card.html"
+  "file:///C:/Users/fadya/Desktop/flybys/pro-debouchage/design/business-card/card.html"
 ```
 
 ## Notes

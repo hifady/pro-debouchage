@@ -7,7 +7,7 @@ description: Fady's decision sitting. Use when Fady types /decide, says "my verd
 
 **Procedure only. This skill owns HOW, never WHAT.** `AGENTS.md` binds over this file.
 
-*Kit template (`../fady.be/kit/`), version 2026-09-29, taken from BePet's own routine of the same day,
+*Kit template (`../../fady.be/kit/`), version 2026-09-29, taken from BePet's own routine of the same day,
 written on his words: "a dedicated Opus session fires and it shows me what I need to react to, with one
 paragraph context explanation in plain simple English then it asks me for a decision". It follows
 Anthropic's own advice for Claude Code: let Claude interview you with the AskUserQuestion tool, then start

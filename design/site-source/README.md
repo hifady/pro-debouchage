@@ -104,13 +104,13 @@ TAGS_OFF=1 node design/site-source/build.js
    `WRANGLER_CACHE_DIR` set, so no `.wrangler/` with personal data lands in the site folder. Deploy to a preview branch first:
 
 ```bash
-cd "$TMPDIR" && unset CLOUDFLARE_API_TOKEN && export WRANGLER_CACHE_DIR="$PWD/.wrangler-cache" && npx wrangler pages deploy "C:\Users\fadya\Desktop\pro-debouchage\site-v1" --project-name prodebouchage24 --branch preview --commit-dirty=true
+cd "$TMPDIR" && unset CLOUDFLARE_API_TOKEN && export WRANGLER_CACHE_DIR="$PWD/.wrangler-cache" && npx wrangler pages deploy "C:\Users\fadya\Desktop\flybys\pro-debouchage\site-v1" --project-name prodebouchage24 --branch preview --commit-dirty=true
 ```
 
    Verify on the pages.dev preview (https://preview.prodebouchage24.pages.dev/fr/ and /nl/, /en/) that the changed strings are live and the layout holds. Only on Fady's word, deploy to the live branch:
 
 ```bash
-cd "$TMPDIR" && unset CLOUDFLARE_API_TOKEN && export WRANGLER_CACHE_DIR="$PWD/.wrangler-cache" && npx wrangler pages deploy "C:\Users\fadya\Desktop\pro-debouchage\site-v1" --project-name prodebouchage24 --branch main --commit-dirty=true
+cd "$TMPDIR" && unset CLOUDFLARE_API_TOKEN && export WRANGLER_CACHE_DIR="$PWD/.wrangler-cache" && npx wrangler pages deploy "C:\Users\fadya\Desktop\flybys\pro-debouchage\site-v1" --project-name prodebouchage24 --branch main --commit-dirty=true
 ```
 
    (THE project is `prodebouchage24` since 2026-08-27, Fady's go-live pick: it carries the live
