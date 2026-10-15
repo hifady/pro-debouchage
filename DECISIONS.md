@@ -17,6 +17,11 @@
 - **2026-08-23 · Ads budget: start at 15 to 20 euro a day plus the 400-for-400 Google credit, raise on evidence.** Fady: he already told Roro 15 a day; 20 is the better opening (arithmetic in `playbook/ads-program.md` section 1); the full test budget (750 to 1,000 a month) is proposed when Roro has tasted the calls. No ROI promise either way.
 - **2026-08-23 · The zone is about 40 km around WEMMEL, Brussels city EXCLUDED (parking), Wallonia included.** Roro via Fady. Copy says "autour de Bruxelles", ads geo is the ring of towns on both sides of the language border, list in `playbook/launch-plan.md` section 6, final list confirmed by Roro.
 
+## 2026-10-15, the rulebook slimmed (HQ night audit, applied on Fady's Go at the next /ooo)
+- `AGENTS.md` and the routine skills restated to today's rules: the shared sections now load once from `~/.claude/rules/fady-system.md` (installed by his double-click of `kit/permissions/apply-permissions.cmd`); dated stories left the rules; the routines are the kit version of 2026-10-15 (`/orch` resumes a day already started by itself; the close carves a log past 150 KB; money is his Go click on a widget that names the action and the amount, replacing the old rule that he types it).
+- Google's identity check (AGENTS.md section 9): his word of 2026-10-08, at the desk he clicks Confirm himself, out the agent clicks Confirm once and the number goes to him; it replaces "click nothing, never relay". Browser pane first, Chrome the fallback.
+- No fact, price, client line or never-line changed. The old files word for word: `_archive/AGENTS-until-2026-10-15.md` and `_archive/CLAUDE-until-2026-10-15.md`; the replaced skills in `to-delete/2026-10-15-night/`. The night's record: the HQ's `research/2026-10-15-night/`.
+
 ## Open
 - **2026-08-23 · The exact .be name.** Recommended `prodebouchage24.be`; alternatives in `playbook/launch-plan.md` section 2. Gate: availability at purchase. Owner: Fady picks Sunday morning.
 - **2026-08-22 · Which address goes on the Business Profile.** Gate: Roro's answer on where the van sleeps. Owner: Fady asks, `playbook/launch-plan.md` section 1 decides the shape.
@@ -365,7 +370,8 @@
 - Tonight: 8 campaign negatives on the ring (the hands-off exception). Bidding, budget, structure untouched until the verdict of Thu 22 Oct. The 22 Oct agenda, in order (research/71 section 9, ads-program.md 10): NL per-problem groups back on; the second RSA for FR | Canalisation bouchée; the call-conversion rule to 1 second; "société de débouchage" paused if still no tap; the Brussels restart proposed with the numbers (Fady's typed go); the price sitelink found.
 - The browser route of 2026-10-11 (pane first) needs hi@fady.be signed in to the pane once by Fady; until then every Ads brief names Chrome fady.be as the route.
 
-## 2026-10-15, the rulebook slimmed (HQ night audit, applied on Fady's Go at the next /ooo)
-- `AGENTS.md` and the routine skills restated to today's rules: the shared sections now load once from `~/.claude/rules/fady-system.md` (installed by his double-click of `kit/permissions/apply-permissions.cmd`); dated stories left the rules; the routines are the kit version of 2026-10-15 (`/orch` resumes a day already started by itself; the close carves a log past 150 KB; money is his Go click on a widget that names the action and the amount, replacing the old rule that he types it).
-- Google's identity check (AGENTS.md section 9): his word of 2026-10-08, at the desk he clicks Confirm himself, out the agent clicks Confirm once and the number goes to him; it replaces "click nothing, never relay". Browser pane first, Chrome the fallback.
-- No fact, price, client line or never-line changed. The old files word for word: `_archive/AGENTS-until-2026-10-15.md` and `_archive/CLAUDE-until-2026-10-15.md`; the replaced skills in `to-delete/2026-10-15-night/`. The night's record: the HQ's `research/2026-10-15-night/`.
+## 2026-10-15 Two rule answers from the HQ audit (Fady by widget, about 12:18)
+- `to-delete/` is emptied by the monthly 30-day pass, its list in the report first ("30-day pass (Recommended)"); it replaces "only Fady empties it" (AGENTS.md section 3).
+- The session may do a one-line task itself, without an agent ("Yes (Recommended)", the HQ's "work alone unless the job splits"); browser work, builds and bigger edits stay with agents (AGENTS.md section 8).
+- Both are rulebook changes: the HQ writes them in (FOR-HQ.md, 15 Oct). Applied by this session already: the one-line filing edits of today's close.
+- Route, read 15 Oct 12:19: the Browser pane had lost Fady's 12 Oct sign-in (a sign-in page), so Chrome fady.be stays the Ads route.

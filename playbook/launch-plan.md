@@ -28,8 +28,8 @@ Address and name settled → domain in Roro's name → Workspace (info@ mailbox 
 
 **Tonight, Sat 2026-08-22**
 - [Fady] WhatsApp Roro the section 1 questions plus: his personal e-mail and mobile for the domain codes, whether printpress registered the .be, whether he has any login for the .com or the old mailbox, his enterprise number if he knows it, and the visit day.
-- [Fady] Create the backup repo. **DONE:** the private repo `fado767/pro-debouchage` has existed since 2026-08-30, and `save-to-cloud.cmd` (Fady's double-click, the fallback) and the close's own door `node .claude/scripts/save-at-close.cjs` (AGENTS.md section 13) are the two backup scripts; `first-time-setup.cmd` is spent and retired to `to-delete/2026-09-04/` (AGENTS.md section 13).
-- [Fady] Create a Chrome profile `Pro Debouchage` (that is its real name; the profile map is owned by AGENTS.md section 14), sign it OUT of Google, give the Claude extension its site permissions in that profile (`research/01` A1). Nobody but Fady can do this.
+- [Fady] Create the backup repo. **DONE:** the private repo `hifady/pro-debouchage` has existed since 2026-08-30, and `save-to-cloud.cmd` (Fady's double-click, the fallback) and the close's own door `node .claude/scripts/save-at-close.cjs` (the shared rules) are the two backup scripts; `first-time-setup.cmd` is spent and retired to `to-delete/2026-09-04/` (the shared rules).
+- [Fady] Create a Chrome profile `Pro Debouchage` (that is its real name; the profile map is owned by `node .claude/scripts/chrome.cjs` and AGENTS.md section 9), sign it OUT of Google, give the Claude extension its site permissions in that profile (`research/01` A1). Nobody but Fady can do this.
 - [Claude] Finish the playbook files from the research, the WhatsApp batch, the town list proposal.
 
 **Sun 2026-08-23, morning, Roro reachable on WhatsApp (DECIDED: visit Sunday afternoon, so this morning block is the gate for the video)**
