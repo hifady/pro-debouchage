@@ -4,7 +4,7 @@
 
 ## 1. Look at this
 
-- **Today's look (Thu 15 Oct, read only, nothing changed):** Fri 9 to Thu 15 Oct the ring spent 173.22 EUR for 25 clicks and 1 counted call tap. Brussels is still paused, 0 EUR. Google logged one call in that week: the 4-second website call of Fri 9 Oct. **Your website test call of Mon 12 Oct is NOT in the call log.** A possible reason, not proven: the page shows Google's tracking number only after a visitor accepts cookies, so without that click you dialled Roro's own number and Google could not see it. Call reporting is on. The ring had spent 3.03 EUR today at 12:22, so its budget is fresh now.
+- **Today's look (Thu 15 Oct, read only, nothing changed):** Fri 9 to Thu 15 Oct the ring spent 173.22 EUR for 25 clicks and 1 counted call tap. Brussels is still paused, 0 EUR. Google logged one call in that week: the 4-second website call of Fri 9 Oct. **Your website test call of Mon 12 Oct is NOT in the call log.** You had accepted cookies, so that is not why. The likely reason: Google swaps in its tracking number only for visitors who arrived by clicking an ad, and on 12 Oct you saw no ad (the day's budget was spent), so the page showed Roro's own number. **Your ad test tap of 15 Oct worked:** Google's forwarding number rang through to Roro, showing your real number. Call reporting is on. The ring had spent 3.03 EUR today at 12:22, so its budget is fresh now.
 - **The calls are back, and the account agrees with you.** Since the fix of Thursday 8 October Google counted 2 taps on the phone number, logged a call from the website on Friday 9 Oct (the first logged call since 16 September; the website call counter works now), and saw 3 taps on the ad's call button today. Before that: three weeks of zero. Your two reported calls (the Dutch lady on Saturday, the French job today) are in the jobs ledger.
 - **What is driving it, as far as the account shows:** the French "canalisation bouchée" ad on its own page is the French converter (3 taps on 10 clicks last week). The Dutch emergency group is where the Dutch calls enter. The 21-EUR-a-click word is gone. Google sees the phone taps again, so its bidding learns.
 - **Why I am not raising the budget:** the ring is limited by search volume, not by money (only 11 to 14 percent of lost impressions are lost to budget). More calls come from more coverage: the Dutch problem pages back on, a second French ad, Brussels back on. Those are planned for Thursday 22 October, the verdict day, one at a time. Tonight only junk searches were blocked (8 new negatives: a competitor's name, Lokeren, pump and chemical products).
@@ -13,21 +13,21 @@
 
 ## 2. Waiting for you
 
-1. **One test tap on the ad's call button**, from your phone, on a real Google search, once: it costs one click and proves the forwarding number reaches Roro. On 12 Oct about 22:25 you searched and saw no ad: the ring had spent its 30 euro for the day by then (31.10 at 22:24). Try again before mid-afternoon, when the day's budget is fresh (on 15 Oct only 3.03 EUR was spent by 12:22). Tell Roro first or hang up when he answers. (Your website test call of 12 Oct is not in the call log: see section 1.)
-2. **Passkeys, after 15 October:** Google Ads requires a passkey for sensitive actions from that date; hi@fady.be holds one. One look that the Ads login still works. (On 15 Oct a read-only look in Chrome asked for no passkey; a yellow "Improve account security" banner shows on every Ads page, untouched.)
-3. **Pick a day for the third Google profile video** with Roro at the depot, the v3 shot list (`assets/prepared/gbp-video-brief.md`). No date yet. Example: a dry morning at the depot, outdoors first. Recommended: this week or next, on your calendar. The Maps listing is the biggest free source of calls and stays invisible until it passes.
-4. **Give Roro his papers:** the parking guide (`assets/prepared/roro-parking-guide-2026-09-28.pdf`).
-5. **Two questions for Roro:** does he take Bancontact on the spot (the invoice prints it)? Is his small camera a Rausch (the page says Rausch, his form said Rioned)? And one for you: is Steph Roro's wife?
-6. **The picture pick (PD-12):** `assets/prepared/contact-sheet-2026-10-01.jpg`, 33 files. Name the IDs to keep, the rest goes to `to-delete/`.
-7. **The credit-note pack:** explain it to Roro by phone (`assets/prepared/credit-note-talking-points-2026-09-14.md`), then hand it over.
-8. **The accountant questions**, in writing (`playbook/invoicing-flow.md` section 5).
-9. **Infomaniak, next login:** confirm the organisation postal address as it is (the legal seat).
-10. **The business card in Figma** (`design/business-card/README.md`). Print waits.
-11. **Decide: the Monday Ads read as an unattended task?** Example: every Monday 07:00, read only, the numbers and the score line waiting for you. Recommended: yes, once the browser pane keeps your Google sign-in after an app restart.
-12. **Decide: the five-week-old items.** The credit-note hand-over (ready since 8 Sep), the parking guide (28 Sep), the picture pick (1 Oct), the business card. Recommended: one 20-minute `/decide` to close or drop each. (The HQ audit named these four; the accountant questions and the KBO name are older too.)
+1. **Passkeys, after 15 October:** Google Ads requires a passkey for sensitive actions from that date; hi@fady.be holds one. One look that the Ads login still works. (On 15 Oct a read-only look in Chrome asked for no passkey; a yellow "Improve account security" banner shows on every Ads page, untouched.)
+2. **Pick a day for the third Google profile video** with Roro at the depot, the v3 shot list (`assets/prepared/gbp-video-brief.md`). No date yet. Example: a dry morning at the depot, outdoors first. Recommended: this week or next, on your calendar. The Maps listing is the biggest free source of calls and stays invisible until it passes.
+3. **Give Roro his papers:** the parking guide (`assets/prepared/roro-parking-guide-2026-09-28.pdf`).
+4. **Two questions for Roro:** does he take Bancontact on the spot (the invoice prints it)? Is his small camera a Rausch (the page says Rausch, his form said Rioned)? And one for you: is Steph Roro's wife?
+5. **The picture pick (PD-12):** `assets/prepared/contact-sheet-2026-10-01.jpg`, 33 files. Name the IDs to keep, the rest goes to `to-delete/`.
+6. **The credit-note pack:** explain it to Roro by phone (`assets/prepared/credit-note-talking-points-2026-09-14.md`), then hand it over.
+7. **The accountant questions**, in writing (`playbook/invoicing-flow.md` section 5).
+8. **Infomaniak, next login:** confirm the organisation postal address as it is (the legal seat).
+9. **The business card in Figma** (`design/business-card/README.md`). Print waits.
+10. **Decide: the Monday Ads read as an unattended task?** Example: every Monday 07:00, read only, the numbers and the score line waiting for you. Recommended: yes, once the browser pane keeps your Google sign-in after an app restart.
+11. **Decide: the five-week-old items.** The credit-note hand-over (ready since 8 Sep), the parking guide (28 Sep), the picture pick (1 Oct), the business card. Recommended: one 20-minute `/decide` to close or drop each. (The HQ audit named these four; the accountant questions and the KBO name are older too.)
 
 ## 3. Your answers
 
+- 2026-10-15, about 15:27, by chat: "Searched and clicked and we even had our call there haha. I did accept the cookie before, but for this one I searched and just used Google button which showed a different number, but he saw my real number" (the ad test tap is DONE: the ad served, the call button showed Google's forwarding number, the call reached Roro with your own caller ID).
 - 2026-10-15, about 12:18, by widget: to-delete/ is emptied by the 30-day pass ("30-day pass (Recommended)"); the session may do a one-line task itself ("Yes (Recommended)"). The HQ writes both into the rulebook.
 - 2026-10-12, about 22:55, by chat: "The report was mentioned on a phone call. Close the day for good." (Roro has the 8 Oct report by phone; the WhatsApp text is no longer owed.)
 

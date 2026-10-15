@@ -14,14 +14,16 @@ or earlier if Fady opens the folder. The verdict day is Thu 22 Oct.**
   them as his word.
 - Ads, read only: the pane had LOST the 12 Oct sign-in (sign-in page), so Chrome fady.be is the route;
   told to the HQ. 9 to 15 Oct: the ring 173.22 EUR, 25 clicks, 1 call_click; Brussels paused, 0 EUR;
-  one logged call (9 Oct, 4 s, website). Fady's 12 Oct website test call is NOT logged: a possible cause
-  is that he did not accept cookies (the number swap loads only after accept). Ask him on the 22 Oct read.
+  one logged call (9 Oct, 4 s, website). Fady's 12 Oct website test call is NOT logged (he had accepted cookies;
+  likely cause: the swap shows only to ad-click visitors, and he saw no ad). About 15:2x Fady made the
+  AD test tap: the ad served and the forwarding number reached Roro. A test, never a customer call.
   "Call reporting on" in Account settings. Nothing changed in the account.
 
 ## Next session, in this order
 1. Mon 19 Oct, `/orch`: the W42 read (read only, one browser agent, Chrome fady.be): the call log for
    Roro's calls, the Tag status card (still unread), the name asset Eligible (after 19 Oct), the price
-   sitelink, Brussels still paused, the promo. VIES/KBO poll, Search Console. SCORE W42. Ad Preview
+   sitelink, Brussels still paused, the promo, Fady's 15 Oct ad test call in Call details (keep it out
+   of the counts). VIES/KBO poll, Search Console. SCORE W42. Ad Preview
    for [déboucheur bruxelles] INSIDE the client account (Chrome; 12 Oct said "no keywords matched").
 2. Thu 22 Oct, the verdict on the call log and Roro's word, then the agenda ONE AT A TIME
    (NOW.md, ads-program.md 10): NL per-problem groups on; second RSA for FR | Canalisation bouchée;
@@ -35,6 +37,6 @@ or earlier if Fady opens the folder. The verdict day is Thu 22 Oct.**
 - Call details lives at Insights and reports > Reports > Ads and assets > Call details (CID 166-502-9105).
 
 ## Waiting on whom
-**Fady:** FOR-FADY.md (the ad test tap while the budget is fresh, the video day, the passkey look,
+**Fady:** FOR-FADY.md (the video day, the passkey look,
 two new /decide items). **Roro:** nothing. **Clocks:** 19 Oct read and name asset; 22 Oct verdict;
 26 Oct promo; 1 Nov or 500 EUR the next charge; 15 Nov registry.
