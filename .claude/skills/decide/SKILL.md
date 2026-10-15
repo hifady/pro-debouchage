@@ -7,22 +7,24 @@ description: Fady's decision sitting. Use when Fady types /decide, says "my verd
 
 **Procedure only. This skill owns HOW, never WHAT.** `AGENTS.md` binds over this file.
 
-*Kit template (`../../fady.be/kit/`), version 2026-09-29, taken from BePet's own routine of the same day,
-written on his words: "a dedicated Opus session fires and it shows me what I need to react to, with one
-paragraph context explanation in plain simple English then it asks me for a decision". It follows
-Anthropic's own advice for Claude Code: let Claude interview you with the AskUserQuestion tool, then start
-a fresh session with clean context to do the work.*
+*Kit template (`../../fady.be/kit/`), version 2026-10-15, from Okipop's routine, on his words: "a dedicated
+Opus session fires and it shows me what I need to react to, with one paragraph context explanation in
+plain simple English then it asks me for a decision". Opus is the one exception to the driver rule.*
 
 ## Run it
 
 0. **Name the session first:** `set_session_title` (session "self") with `Pro Débouchage | decide | <today>`.
    Tell him in one line that this sitting runs best on Opus (the app's model menu).
-1. Read `FOR-FADY.md` whole, then the folder's state file and `HANDOFF.md`. Read the clock.
+1. Read `FOR-FADY.md` whole, then `STATE.md` and `HANDOFF.md`. Read the clock.
 2. **Say in two lines what waits:** how many things, which come first. The order: what blocks the work,
    then his verdicts on designs, then the rest. Ask by widget how much time he has.
 3. **One thing at a time:**
    - first, for any item from an older list, search `DECISIONS.md` (and the folder's order files, where
-     it keeps them) for an earlier answer; if one exists, show it in one line and move on;
+     it keeps them) for an earlier answer; if one exists, show it in one line and move on; a point the
+     HQ owns (the company, VAT, the address, the books) is searched in the HQ's answers in `FOR-HQ.md`
+     and never asked here;
+   - the pictures the question is about go WITH the question (`SendUserFile`, full-size files from
+     disk, numbered in the caption), never only behind a link;
    - a question about mechanics (routines, hooks, tools, settings) is not asked: decide it and tell him
      in one line;
    - one short paragraph: what it is and why it matters, in plain simple English, with one example
@@ -39,12 +41,16 @@ a fresh session with clean context to do the work.*
      `FOR-FADY.md`.
 4. **A verdict on a design** takes three things from him: what he likes, what he does not like, his
    pick. Whether a pick is a working choice or a lock is asked, never assumed.
-5. **A spend** is never made here. When an item is a spend, the sitting asks for his typed go, naming
-   the action and the amount, and files it for the session that does the work.
+5. **A spend** is never made here. When an item is a spend, the widget names the action and the amount,
+   his Go click is his go, and it is filed for the session that does the work.
 6. **Stop** when he says stop or his time is over. What was not asked stays in `FOR-FADY.md`.
-7. **Close:** his decisions to `DECISIONS.md` (append only, his words), changed truths to the state
-   file, the answered items leave part 2 of `FOR-FADY.md`, the work his answers set in motion goes to
-   the open-items file for Claude. Then `/eof`.
+7. **Close, short (never the full `/eof`, which would overwrite a build session's handoff):** his
+   decisions to `DECISIONS.md` (append only, his words), a changed fact (a price, a deal) also to its
+   owner file (`AGENTS.md` names it) unless `list_sessions` shows a build session running here (then it
+   goes in `NOW.md` for that session), the answered items leave part 2 of
+   `FOR-FADY.md`, the work his answers set in motion goes to `NOW.md` for Claude. Then the
+   save door (skipped when `list_sessions` shows another session running in this folder) and the Fady
+   block.
 
 ## Never
 
