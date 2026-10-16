@@ -27,7 +27,7 @@
 !/design/
 !/_archive/
 
-# the waiting room for spent files is never backed up (only Fady empties it)
+# the waiting room for spent files is never backed up (the monthly 30-day pass empties it, AGENTS.md section 3)
 /to-delete/
 
 # generated per-session scratch state of the logging guard (added 2026-09-04, shared kit), never history

@@ -2,6 +2,8 @@
 
 Notes for Fady. Not a message to send.
 
+**Answered before the call (Fady, 2026-10-16 about 22:00): Roro's "Vilvoorde" is the mailbox seat, the one the company is registered at.** So branch (c) "It is the mailbox" applies: the depot stays. On the call: tell him why (section a), then ask only question 8 (can he film it himself next week, section d), else it waits for Fady. Questions 1 to 7 are only needed if Roro names a different, real working place.
+
 Context: Roro wants the third Google Business Profile video shot "in Vilvoorde" and not at the depot. In the files, Vilvoorde means Guldenschaapstraat 6, the legal seat, which is a MAILBOX (STATE.md line 9; DECISIONS 2026-08-23 and 2026-08-26; gate G1 in NOW.md; AGENTS.md rule 4). The depot, Rue Théophile De Baisieux 225, 1020 Bruxelles, is the address typed in Verify (STATE.md line 9, gbp-video-brief.md).
 
 ## (a) What Fady knows before he calls (simple English)

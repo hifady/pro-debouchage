@@ -386,3 +386,7 @@
 - Applied by the HQ through `kit/scripts/apply-staged.cjs`, the old rulebook in `to-delete/2026-10-16-check/`; the decisions are the entry of 2026-10-15 above.
 - Section 3, old: "`to-delete/` the waiting room; **only Fady empties it, the monthly pass never does** (stricter than the shared rules)."
 - Section 8, old: "The session plans, briefs agents, verifies and files; it never executes a task itself, browser clicks included, except what only it can do (a widget pick, a permission grant)."
+
+## 2026-10-16 Two verdict-day details settled by the sweep (Claude's decisions on the ads, authority of 2026-09-23 and Fady's widget of 16 Oct 21:32)
+- NL groups back on (22 Oct item 1): 7 of NL emergency's 14 keywords are copies of the NL per-problem keywords (enabled 8 Oct while the groups were paused, research/69). When a group comes back on, its copies in NL emergency are paused in the same step: one group per keyword, the per-problem page gets the click. Nothing in the account moves before 22 Oct.
+- The 1-second call rule (22 Oct item 3): the flip rule (first "Calls from website" count flips call_click to SECONDARY) waits until a counted website call matches a real customer call; a short hang-up never moves the bidding signal.

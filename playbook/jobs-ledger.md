@@ -30,3 +30,4 @@ Example: `Dilbeek, WC, 129, Google, FR`. A lost call counts too: `Kontich, cave,
 - 17 to 28 Sep: zero calls from the ad's call button (research/56 section 3).
 - 28 Sep to 4 Oct: zero calls from the ad's call button, zero counted taps, 30 clicks, 251.19 EUR (research/63).
 - 5 to 12 Oct: one logged call, Fri 9 Oct 17:00, 4 s, Received, source Website (the first since 16 Sep); the ad's call button tapped 9 times 5 to 11 Oct and 3 times on 12 Oct, 1 phone call on the asset; no row for Roro's two reported calls (research/71 section 3).
+- 9 to 15 Oct (read 15 Oct, LOG): Call details one row, the 9 Oct 4-second website call; the ring 25 clicks, 1 call_click. Fady's two TEST calls stay out of every count: the 12 Oct website test (never logged) and the 15 Oct ad test (to find in Call details at the 19 Oct read).
