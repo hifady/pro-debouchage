@@ -12,7 +12,7 @@
 
 ## 2. Waiting for you
 
-1. **Call Roro about the video (Sat 17 Oct).** Ask what the Vilvoorde place is. If it is the mailbox: the video stays at the depot. If it is a real working place (van, machine, keys, a sign): tell me, and you decide whether the address changes. You cannot go this weekend, so either Roro films it himself next week with the v3 shot list, or it waits for you.
+1. **Call Roro about the video (Sat 17 Oct).** Vilvoorde is the mailbox (your word, 16 Oct), so the video stays at the depot. Tell him why (Google refuses mailboxes; the fail was the street view, not the address). You cannot go this weekend, so either Roro films it himself next week with the v3 shot list (you stay reachable for the sign-in approval), or it waits for you.
 2. **Passkeys, after 15 October:** one look that the Ads login still works. (15 Oct: no passkey asked in Chrome; a yellow "Improve account security" banner shows, untouched.) The Monday read will look again.
 3. **Give Roro his papers:** the parking guide (`assets/prepared/roro-parking-guide-2026-09-28.pdf`).
 4. **Two questions for Roro:** does he take Bancontact on the spot (the invoice prints it)? Is his small camera a Rausch (the page says Rausch, his form said Rioned)? And one for you: is Steph Roro's wife?
@@ -25,6 +25,7 @@
 
 ## 3. Your answers
 
+- 2026-10-16, about 22:00, by chat: "It is the mailbox one, the one the company is registered at. What can I tell him then, maybe that's really the issue? Maybe the "not enough surrounding" issue is that they're not seeing the location they're pulling, if this hypothesis is correct." (The depot stays; the answer to the hypothesis is in the chat of that evening and the LOG.)
 - 2026-10-16, about 21:32, by widget: privacy fix "Go live now (Recommended)"; Thursday's Dutch groups back on and the 1-second call rule: "Claude, on the data (Recommended)", both.
 - 2026-10-16, about 21:10, by widget: tonight "Both, no Chrome (Recommended)"; the old items "20-min /decide soon (Recommended)"; the video: "Robert told me he wants us to shoot this video in Vilvoorde location instead. No time set yet. We might have to call him tomorrow, but I can't go this weekend. So either he does it himself or it waits till next week"; the unattended Monday read: "We don't have this issue usually in the taxi business, note it to hq to look into it. I want my systems to work all the same." (sent to the HQ).
 - 2026-10-15, about 15:27, by chat: "Searched and clicked and we even had our call there haha. I did accept the cookie before, but for this one I searched and just used Google button which showed a different number, but he saw my real number" (the ad test tap is DONE).
