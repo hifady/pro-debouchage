@@ -381,3 +381,8 @@
 - Thu 22 Oct: the three NL per-problem groups back on and the call-conversion rule to 1 second are the session's calls on the data ("Claude, on the data (Recommended)" twice); budget, bidding and the Brussels switch-on stay his Go click.
 - GBP video three, his words: "Robert told me he wants us to shoot this video in Vilvoorde location instead. No time set yet. We might have to call him tomorrow, but I can't go this weekend. So either he does it himself or it waits till next week". In the files Vilvoorde is the mailbox seat (G1); call notes: assets/prepared/roro-call-video-location-2026-10-17.md.
 - Monday read unattended, his words: "We don't have this issue usually in the taxi business, note it to hq to look into it. I want my systems to work all the same." (FOR-HQ). The five-week-old items: "20-min /decide soon (Recommended)".
+
+## 2026-10-16 The two rule answers of 15 Oct written into AGENTS.md (the HQ, "check the projects")
+- Applied by the HQ through `kit/scripts/apply-staged.cjs`, the old rulebook in `to-delete/2026-10-16-check/`; the decisions are the entry of 2026-10-15 above.
+- Section 3, old: "`to-delete/` the waiting room; **only Fady empties it, the monthly pass never does** (stricter than the shared rules)."
+- Section 8, old: "The session plans, briefs agents, verifies and files; it never executes a task itself, browser clicks included, except what only it can do (a widget pick, a permission grant)."

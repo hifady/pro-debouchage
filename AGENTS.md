@@ -22,7 +22,7 @@ Pro Débouchage is a 24/7 drain-unblocking, sewer cleaning, camera inspection, s
 - `playbook/` the owners of section 4, read on demand. `research/` dated agent reports, read-only, listed in `research/INDEX.md`, never the owner of a fact.
 - `assets/raw/` what Roro sent, untouched; `assets/prepared/` what we made from it.
 - `design/site-source/` THE page source (the one locked design); its README has the build and deploy commands. `site-v1/` is the output of `node design/site-source/build.js`, never edited by hand.
-- `to-delete/` the waiting room; **only Fady empties it, the monthly pass never does** (stricter than the shared rules).
+- `to-delete/` the waiting room; the monthly pass empties what waited 30 days, its list in the report first (the shared rules).
 - Hooks: `deny-git.cjs`, `no-emdash.cjs`, and this folder's own `protect-paths.cjs`, which refuses writes into `site-v1/` (rule 5) and `../../taxi-business/` (rule 6).
 
 ## 4. Where facts live (trust the file, never memory)
@@ -61,7 +61,7 @@ Prices the agency charges Roro: `DECISIONS.md` (no offer file until there is an 
 ## 8. How the work runs
 
 - Fady never logs anything. What happens is filed in the same session (`LOG.md`, `NOW.md`, `DECISIONS.md`, `STATE.md`, `playbook/accounts.md`); nothing waits in chat for "later"; a session's last reply names what was logged and where, or "Nothing to log this session."
-- The session plans, briefs agents, verifies and files; it never executes a task itself, browser clicks included, except what only it can do (a widget pick, a permission grant).
+- The session plans, briefs agents, verifies and files. It does a one-line task itself, and what only it can do (a widget pick, a permission grant); browser work, builds and bigger edits go to agents.
 - Fady first: money and mail to a customer or Roro (his Go click on a widget naming the action and the amount), passwords, account-level agreements, anything that touches a live client surface. When an Ads setting may move: `ads-program.md` section 6; the caps: `STATE.md` and the ADS line of `NOW.md`, the open-items file.
 - The goal: a business mostly run by agents, Roro's setup dead simple. Say in one line when a task could be automated or a rule improved, and when an idea is Claude's own.
 
