@@ -29,3 +29,4 @@ Example: `Dilbeek, WC, 129, Google, FR`. A lost call counts too: `Kontich, cave,
 - Taps on the site's call button (call_click): 9 all time, 27 Aug to 28 Sep (research/57). Spend to date: NOW.md.
 - 17 to 28 Sep: zero calls from the ad's call button (research/56 section 3).
 - 28 Sep to 4 Oct: zero calls from the ad's call button, zero counted taps, 30 clicks, 251.19 EUR (research/63).
+- 5 to 12 Oct: one logged call, Fri 9 Oct 17:00, 4 s, Received, source Website (the first since 16 Sep); the ad's call button tapped 9 times 5 to 11 Oct and 3 times on 12 Oct, 1 phone call on the asset; no row for Roro's two reported calls (research/71 section 3).

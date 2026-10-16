@@ -62,16 +62,19 @@ TAGS_OFF=1 node design/site-source/build.js
      `assets/js/consent.js`, the tag-day footer credit and privacy section, the reopen link and the
      Google CSP in `_headers`. On the same build: `ADS_CALL_LABEL` and `ADS_WA_LABEL` (defaults set,
      the two conversion labels from the Ads account); with them every `data-cta` call or WhatsApp
-     click also fires a `send_to` conversion.
+     click also fires a `send_to` conversion. Refusing, or Save with a purpose off, runs `wipe()` in
+     consent.js: it deletes `_gcl*` and `gwcc` when ads is off and `_ga*` when analytics is off, on the
+     bare host and on every parent domain down to, not including, the bare suffix (2026-10-16; Google
+     can write on a parent domain, for example on the pages.dev preview).
    - `ADS_PHONE_LABEL` (default u0RxCNu5nPUcEM_SjsxE, baked 2026-09-12) turns on Google's
      "Calls from website visits" number swap: Google replaces the displayed `0480 649 649` with a
-     forwarding number for visitors who came from an ad click AND accepted cookies. **Live since 2026-10-08 13:03**
+     forwarding number for visitors who came from an ad click AND accepted ad measurement. **Live since 2026-10-08 13:03**
      (the site runs CONSENT_MODE=advanced, below). The security header (CSP_TAG in build.js) now allows
      scripts from gstatic.com (`https://www.gstatic.com` in script-src), so Google's loader
      (https://www.gstatic.com/wcm/loader.js) loads after Accept, with call-tracking_9.js and the wcm
      request and no CSP error (research/67). Before that date the loader was blocked and the
      conversion "Calls from website" had never counted since 2026-09-12; no call was lost, the real
-     number always showed. Fady's one test call on the website number is still owed (DECISIONS 2026-09-28, research/54). The
+     number always showed. Fady's website test call of 12 Oct (about 22:25) is not in Call details (read 15 Oct): the swap serves only visitors who came from an ad click; his ad test call of 15 Oct is read on 19 Oct and kept out of every count (NOW.md). The
      conversion action "Calls from website" was created in the Ads account on 2026-09-12 and its
      label is baked in as the default. An empty ADS_PHONE_LABEL, or `TAGS_OFF=1`, removes the
      feature from the output byte for byte. The call-length threshold and whether `call_click` is
@@ -91,7 +94,7 @@ TAGS_OFF=1 node design/site-source/build.js
      WhatsApp taps send cookieless conversions. GA4 stays as in basic: no GA4 config and no GA4
      request until the visitor accepts the analytics purpose. Accept grants per purpose; the number
      swap still waits for ads consent. The card title, card sentence, footer credit and privacy pages
-     switch to wording that is true of this variant (copy-*.js and legal.js read the same flag; the
+     switch to wording that is true of this variant (2026-10-16: the IP sentence per Google's docs, the call-counter section, the `gwcc` and `_gcl_aw` rows; EN card title 'Measurement cookies, if you agree') (copy-*.js and legal.js read the same flag; the
      parameters the pings carry were read off the wire, research/68). Any other value fails the build,
      and so does `advanced` without an Ads id. With `TAGS_OFF=1` it changes nothing.
    - `GA4_ID` (default G-S3SQ25WZMK) adds the GA4 property to the SAME consent gate and the SAME

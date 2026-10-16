@@ -763,7 +763,7 @@ html[lang="nl-BE"]{--h1-fit:.65;--h1-cap:11.4cqw}
     <p class="kicker">Legal information</p>
     <h1 style="font-size:clamp(2rem,5vw,2.75rem)">Privacy policy</h1>
     <hr class="rule">
-    <p class="lead">Last updated: 8 October 2026.</p>
+    <p class="lead">Last updated: 16 October 2026.</p>
 
     <h2>Who handles your data</h2>
     <p>PRO DEBOUCHAGE SRL, Guldenschaapstraat 6, 1800 Vilvoorde, Belgium. Company number 1027.454.187.<br>
@@ -781,15 +781,20 @@ html[lang="nl-BE"]{--h1-fit:.65;--h1-cap:11.4cqw}
       <thead><tr><th>Name</th><th>Set by</th><th>What it does</th><th>Type and lifetime</th><th>Consent</th></tr></thead>
       <tbody>
         <tr><td><code>_gcl_au</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Links a call or a WhatsApp click back to the Google ad that brought you, so we know which ads produce work. Measurement only, no personalisation.</td><td>Cookie, up to 90 days</td><td>Yes, only after you accept</td></tr>
+        <tr><td><code>_gcl_aw</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Keeps the code of the Google ad click that brought you, to link your call to that ad. Measurement only.</td><td>Cookie, up to 90 days</td><td>Yes, only after you accept</td></tr>
         <tr><td><code>_ga</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Tells one visitor from another, so the same visit is not counted twice.</td><td>Cookie, up to 2 years</td><td>Yes, only after you accept</td></tr>
         <tr><td><code>_ga_S3SQ25WZMK</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Keeps the session state for our measurement property.</td><td>Cookie, up to 2 years</td><td>Yes, only after you accept</td></tr>
+        <tr><td><code>gwcc</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Used by the Google tool that shows its forwarding number instead of ours, if you came from a Google ad (see "The site's call counter"). Measurement only.</td><td>Cookie, lifetime Google doesn't publish</td><td>Yes, only after you accept</td></tr>
         <tr><td><code>pd_consent</code></td><td>PRO DEBOUCHAGE SRL</td><td>Remembers your answer, so we do not ask again on every page.</td><td>Not a cookie, a note in your browser, 182 days</td><td>No, strictly necessary for the choice you made</td></tr>
       </tbody>
     </table></div>
     <p><code>pd_consent</code> is not a cookie, it is a small note your browser keeps. It remembers your answer so we do not ask again on every page. It stays 182 days, then the question comes back. It goes nowhere and holds nothing but your choice. Google's lifetimes are the ones Google publishes and can change, which is why they say "up to".</p>
 
+    <h3>The site's call counter</h3>
+    <p>If you accept ad measurement and you came from a Google ad, a Google tool may swap the number we show for a Google forwarding number. Your call then goes through Google and still reaches us as usual. That's how we know which ads bring in calls. Google then shows us, in our Google Ads account: the time of the call, how long it lasted, whether it was answered or missed, the caller's country and area code and, for most calls over 15 seconds, your phone number. This tool may set a cookie, <code>gwcc</code>. Without your yes to ad measurement, this tool doesn't load and you always see our real number.</p>
+
     <h3>Outside the European Union</h3>
-    <p>Google may process the measurement data outside the European Union, including in the United States. Google does so under the European adequacy decision for the United States and its standard contractual clauses. Measurement data from European visitors is collected on European servers first, and your IP address is not kept by Google.</p>
+    <p>Google may process the measurement data outside the European Union, including in the United States. Google does so under the European adequacy decision for the United States and its standard contractual clauses. Your IP address: until you accept ad measurement, Google Ads truncates it (cuts part of it off) as soon as it arrives. If you accept, Google Ads gets it in full. Google Analytics only loads if you accept it. It then handles European visitors' IP addresses on European servers, uses them only to work out your location, and deletes them straight away without storing them.</p>
     <p>The fonts and the photos stay on our own server. When you open this page, your browser contacts only one other company: Google, for the measurement described above.</p>
     <p>There is one exception, and it does not come from us: our host, Cloudflare Pages, adds two technical headers of its own to every page (NEL and Report-To), and we cannot remove them. They only serve to report a technical error if a page fails to load. In that case the browser sends a technical report to Cloudflare. In our testing, no such report was ever sent.</p>
     <p>Our host keeps technical logs (IP address, date, page requested, browser type) for the security and the proper working of the site. These logs are kept briefly and are not used to profile you.</p>
@@ -809,7 +814,7 @@ html[lang="nl-BE"]{--h1-fit:.65;--h1-cap:11.4cqw}
       <li><strong>Invoicing and accounting</strong>: legal obligation.</li>
       <li><strong>A report for your insurance</strong>, if you ask for one: performance of the contract.</li>
       <li><strong>Job photos published on this site</strong>: only with your agreement, without your name and without your address. At most we name the town and the month. You can withdraw your agreement at any time.</li>
-      <li><strong>Knowing whether our ads bring in calls, with Google's cookies</strong>: your consent, which you can withdraw whenever you want.</li>
+      <li><strong>Knowing whether our ads bring in calls, with Google's cookies and call counter</strong>: your consent, which you can withdraw whenever you want.</li>
       <li><strong>The ad measurement without cookies, before you choose or if you refuse</strong>: our legitimate interest in knowing whether our ads bring in calls.</li>
     </ul>
 
@@ -950,6 +955,6 @@ if(d.open&&d.classList.contains('is-open')){run(d,false)}
 else{ds.forEach(function(o){if(o!==d&&o.classList.contains('is-open'))run(o,false)});run(d,true)}})});
 })();
 })();</script>
-<script src="/assets/js/consent.js?v=3fab7ba40b" defer></script>
+<script src="/assets/js/consent.js?v=148208caac" defer></script>
 </body>
 </html>

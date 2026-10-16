@@ -375,3 +375,9 @@
 - The session may do a one-line task itself, without an agent ("Yes (Recommended)", the HQ's "work alone unless the job splits"); browser work, builds and bigger edits stay with agents (AGENTS.md section 8).
 - Both are rulebook changes: the HQ writes them in (FOR-HQ.md, 15 Oct). Applied by this session already: the one-line filing edits of today's close.
 - Route, read 15 Oct 12:19: the Browser pane had lost Fady's 12 Oct sign-in (a sign-in page), so Chrome fady.be stays the Ads route.
+
+## 2026-10-16 Privacy page live, two verdict-day calls delegated, the video location (Fady by widget, 21:10 and 21:32)
+- Privacy fix (IP sentence true to Google's docs, the call counter and gwcc and _gcl_aw described, EN card title on one line, NL colons, wipe on parent domains): "Both, no Chrome (Recommended)", then "Go live now (Recommended)" after two separate checks on the preview.
+- Thu 22 Oct: the three NL per-problem groups back on and the call-conversion rule to 1 second are the session's calls on the data ("Claude, on the data (Recommended)" twice); budget, bidding and the Brussels switch-on stay his Go click.
+- GBP video three, his words: "Robert told me he wants us to shoot this video in Vilvoorde location instead. No time set yet. We might have to call him tomorrow, but I can't go this weekend. So either he does it himself or it waits till next week". In the files Vilvoorde is the mailbox seat (G1); call notes: assets/prepared/roro-call-video-location-2026-10-17.md.
+- Monday read unattended, his words: "We don't have this issue usually in the taxi business, note it to hq to look into it. I want my systems to work all the same." (FOR-HQ). The five-week-old items: "20-min /decide soon (Recommended)".

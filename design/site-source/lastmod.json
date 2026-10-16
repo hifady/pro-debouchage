@@ -1,62 +1,62 @@
 {
   "/fr/": {
     "hash": "bc5ce589bc136907ce4734fdadae14de72daf678a0601be7fb37c69e6a563672",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/nl/": {
     "hash": "c373620c5e79c133ee767c54ce581db054bc803f1c62639578d8121b29a268c3",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/en/": {
     "hash": "5032a0da77d6df0d5117bbc063c1856222b04f4141f2f24391ebdb9f48a49bcb",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/fr/wc-bouche/": {
     "hash": "63eeecd7bb15eac141334afe056de90fd19674b846f07ddcfbac929a4c0850bf",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/nl/wc-verstopt/": {
     "hash": "4350ab9cb49547ea8b776fce88119e9937655de280a998455d726e130d93d903",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/fr/canalisation-bouchee/": {
     "hash": "657cecbf9da92e6a448d9d61eddb0e5dd2244274c255d0dcac7401463eee6784",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/nl/afvoer-verstopt/": {
     "hash": "3295e2dfd9d13a69d707cbd197cc1991139032d34b1bc9bb37fdb486ade92b64",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/fr/cave-inondee/": {
     "hash": "1d959d92a8ae160954a7735758818acd59a5d285921b246ee0ad208aedf0381d",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/nl/kelder-leegpompen/": {
     "hash": "392ea9a8950d3a80a60f63f56beccfac3e2aa7916b7c597dd680438663f1f2db",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/fr/confidentialite": {
-    "hash": "21be132e4677174ed33fe65dd6abcc21862ac6483c625c3912ce6ebc421dfcc5",
-    "date": "2026-10-08"
+    "hash": "658faf777e5a019731c42d57544e45137a5cd71ed5940b07877667ca2094ac2d",
+    "date": "2026-10-16"
   },
   "/nl/privacy": {
-    "hash": "39feb6ad6e5d91373954f563d475c256a95409554e685f3aeca35bdcc3440dc0",
-    "date": "2026-10-08"
+    "hash": "25d02523984cb803168999885bc632941d44106656e1553a8eb9139aaa441df8",
+    "date": "2026-10-16"
   },
   "/en/privacy": {
-    "hash": "65512424a7bfdf325c4711c74b0406dcac0b9556ce82f7b495993904c184dfca",
-    "date": "2026-10-08"
+    "hash": "3a15e070bbda32edb988824072b9165ea1e91711b7b6ed9a9065e4556fa745eb",
+    "date": "2026-10-16"
   },
   "/fr/conditions-generales": {
     "hash": "9304d87dfb1935dd51b459e11de9abe361440fd6d85fa471b428c109ee4793ee",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/nl/algemene-voorwaarden": {
     "hash": "9dca336277491a1f5c0b3227fe54129f3db61d61cfc501684a6eb254d4f3c579",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   },
   "/en/terms": {
     "hash": "9068e23c3a31c1df4d1718ed4bc702875226c26bdbe654c2b4bbb878fb633715",
-    "date": "2026-10-08"
+    "date": "2026-10-16"
   }
 }

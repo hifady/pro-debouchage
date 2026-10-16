@@ -248,7 +248,8 @@ module.exports = {
   // The consent card, two layers (research/29 B1 and B2, 2026-08-27).
   // consentP was cut to one sentence on 2026-09-16 (research/35): on a phone the card covered the
   // hero call button. The controller is still named in the sentence; the rest moved to layer two.
-  consentT: ADV ? 'Measurement cookies, with your consent' : 'Measuring calls, with your consent',
+  // 2026-10-16: the advanced title was "Measurement cookies, with your consent", two lines at 375 px.
+  consentT: ADV ? 'Measurement cookies, if you agree' : 'Measuring calls, with your consent',
   consentP: ADV
     ? "PRO DEBOUCHAGE SRL measures its ads with Google. Google's script loads right away, with no cookies until you accept."
     : "PRO DEBOUCHAGE SRL measures its ads with Google. Nothing loads before you choose.",

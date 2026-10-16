@@ -5,11 +5,11 @@
 // Facts only: what is written here must match what the built site really does (AGENTS.md rule 1).
 // ADV (2026-10-08, research/68): true only on a CONSENT_MODE=advanced build, read as build.js reads it.
 // There Google's script loads before the visitor answers, so the cookie text is swapped (ADV_SWAP at the
-// bottom) and the page carries its own update date. The basic build keeps every byte as it was.
+// bottom). 2026-10-16 (research/68 open points 2 and 4): the IP sentence now says only what Google
+// documents, and the call counter (number swap) and its gwcc cookie are described; that text is true in
+// both variants, so both builds changed and carry the same update date.
 const ADV = process.env.CONSENT_MODE === 'advanced';
-const UPDATED = ADV
-  ? { fr: '8 octobre 2026', nl: '8 oktober 2026', en: '8 October 2026' }
-  : { fr: '27 août 2026', nl: '27 augustus 2026', en: '27 August 2026' };
+const UPDATED = { fr: '16 octobre 2026', nl: '16 oktober 2026', en: '16 October 2026' };
 
 const fr = `<main>
 <section class="s-card">
@@ -69,42 +69,42 @@ const nl = `<main>
     <p class="kicker">Wettelijke informatie</p>
     <h1 style="font-size:clamp(2rem,5vw,2.75rem)">Privacybeleid</h1>
     <hr class="rule">
-    <p class="lead">Laatst bijgewerkt&nbsp;: ${UPDATED.nl}.</p>
+    <p class="lead">Laatst bijgewerkt: ${UPDATED.nl}.</p>
 
     <h2>Wie uw gegevens verwerkt</h2>
     <p>PRO DEBOUCHAGE BV, Guldenschaapstraat 6, 1800 Vilvoorde, België. Ondernemingsnummer BE 1027.454.187.<br>
-    Telefoon&nbsp;: <a href="tel:+32480649649">0480 649 649</a>. E-mail&nbsp;: <a href="mailto:info@prodebouchage24.be">info@prodebouchage24.be</a>.</p>
+    Telefoon: <a href="tel:+32480649649">0480 649 649</a>. E-mail: <a href="mailto:info@prodebouchage24.be">info@prodebouchage24.be</a>.</p>
 
 <!--cookies-->
     <h2>Deze site plaatst geen cookies</h2>
     <p>Dit is een statische site. Er wordt geen enkele cookie geplaatst, er is geen meetinstrument, geen advertentiepixel en geen socialemediaknop. Er valt dus niets te aanvaarden of te weigeren. De dag dat wij een meetinstrument toevoegen, verschijnt eerst een toestemmingsbanner met een knop "Alles weigeren" die even zichtbaar en even eenvoudig is als "Alles aanvaarden", en wordt deze pagina bijgewerkt.</p>
     <p>De lettertypes en de foto's staan op onze eigen server. Als u deze pagina opent, vraagt uw browser dus geen enkel bestand op bij een ander bedrijf.</p>
 <!--/cookies-->
-    <p>Eén uitzondering, en die komt niet van ons&nbsp;: onze hostingpartij, Cloudflare Pages, voegt zelf twee technische headers toe aan elke pagina (NEL en Report-To), en die kunnen wij niet verwijderen. Ze dienen alleen om een technische fout te melden als een pagina niet geladen raakt. In dat geval stuurt de browser een technisch verslag naar Cloudflare. Bij onze tests werd zo'n verslag nooit verstuurd.</p>
+    <p>Eén uitzondering, en die komt niet van ons: onze hostingpartij, Cloudflare Pages, voegt zelf twee technische headers toe aan elke pagina (NEL en Report-To), en die kunnen wij niet verwijderen. Ze dienen alleen om een technische fout te melden als een pagina niet geladen raakt. In dat geval stuurt de browser een technisch verslag naar Cloudflare. Bij onze tests werd zo'n verslag nooit verstuurd.</p>
     <p>Onze hostingpartij houdt technische logs bij (IP-adres, datum, opgevraagde pagina, browsertype) voor de veiligheid en de goede werking van de site. Die logs worden kort bewaard en dienen niet om u te profileren.</p>
 
     <h2>De gegevens die u zelf geeft</h2>
-    <p>Er staat geen formulier op deze site. U contacteert ons per telefoon, via WhatsApp of per e-mail. In dat geval verwerken wij&nbsp;:</p>
+    <p>Er staat geen formulier op deze site. U contacteert ons per telefoon, via WhatsApp of per e-mail. In dat geval verwerken wij:</p>
     <ul>
-      <li>uw naam, uw telefoonnummer en, als u dat geeft, uw e-mailadres&nbsp;;</li>
-      <li>het adres van de interventie&nbsp;;</li>
-      <li>de beschrijving van het probleem, en de foto's of video's die u ons stuurt&nbsp;;</li>
+      <li>uw naam, uw telefoonnummer en, als u dat geeft, uw e-mailadres;</li>
+      <li>het adres van de interventie;</li>
+      <li>de beschrijving van het probleem, en de foto's of video's die u ons stuurt;</li>
       <li>de gegevens die nodig zijn voor de factuur en de betaling.</li>
     </ul>
 
     <h2>Waarom, en op welke grond</h2>
     <ul>
-      <li><strong>U een prijs geven en bij u langskomen</strong>&nbsp;: uitvoering van de overeenkomst of stappen daarvoor.</li>
-      <li><strong>Facturatie en boekhouding</strong>&nbsp;: wettelijke verplichting.</li>
-      <li><strong>Verslag voor uw verzekering</strong>, als u dat vraagt&nbsp;: uitvoering van de overeenkomst.</li>
-      <li><strong>Werffoto's op deze site</strong>&nbsp;: alleen met uw akkoord, zonder uw naam en zonder uw adres. Wij vermelden hoogstens de gemeente en de maand. U kan uw akkoord altijd intrekken.</li><!--basis-->
+      <li><strong>U een prijs geven en bij u langskomen</strong>: uitvoering van de overeenkomst of stappen daarvoor.</li>
+      <li><strong>Facturatie en boekhouding</strong>: wettelijke verplichting.</li>
+      <li><strong>Verslag voor uw verzekering</strong>, als u dat vraagt: uitvoering van de overeenkomst.</li>
+      <li><strong>Werffoto's op deze site</strong>: alleen met uw akkoord, zonder uw naam en zonder uw adres. Wij vermelden hoogstens de gemeente en de maand. U kan uw akkoord altijd intrekken.</li><!--basis-->
     </ul>
 
     <h2>Wie uw gegevens krijgt</h2>
     <p>Onze technieker, om bij u langs te komen. Onze boekhouder en de belastingadministratie, voor de facturen. Onze hostingpartij, om de site te laten werken. De leverancier van onze e-mailbox. WhatsApp (Meta) als u dat kanaal zelf kiest.<!--recip--> Wij verkopen geen gegevens en wij sturen geen reclame.</p>
 
     <h2>Hoe lang</h2>
-    <p>Facturen en boekhoudkundige stukken&nbsp;: tien jaar, zoals de Belgische wet vraagt. Berichten en foto's bij een interventie&nbsp;: twee jaar na de interventie, behalve bij een lopend geschil. Vragen zonder gevolg&nbsp;: zes maanden.</p>
+    <p>Facturen en boekhoudkundige stukken: tien jaar, zoals de Belgische wet vraagt. Berichten en foto's bij een interventie: twee jaar na de interventie, behalve bij een lopend geschil. Vragen zonder gevolg: zes maanden.</p>
 
     <h2>Uw rechten</h2>
     <p>U kan inzage vragen in uw gegevens, verbetering, wissing, beperking van de verwerking, overdraagbaarheid, en u kan zich verzetten tegen een verwerking. Schrijf naar <a href="mailto:info@prodebouchage24.be">info@prodebouchage24.be</a> of bel <a href="tel:+32480649649">0480 649 649</a>. Wij antwoorden binnen de maand.</p>
@@ -185,21 +185,26 @@ const COOKIES_TAG = {
       <thead><tr><th>Nom</th><th>Déposé par</th><th>À quoi ça sert</th><th>Type et durée</th><th>Consentement</th></tr></thead>
       <tbody>
         <tr><td><code>_gcl_au</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Relie un appel ou un clic WhatsApp à l'annonce Google qui vous a amené, pour savoir quelles annonces donnent du travail. Mesure uniquement, aucune personnalisation.</td><td>Cookie, jusqu'à 90 jours</td><td>Oui, uniquement après votre accord</td></tr>
+        <tr><td><code>_gcl_aw</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Garde le code du clic sur l'annonce Google qui vous a amené, pour relier votre appel à cette annonce. Mesure uniquement.</td><td>Cookie, jusqu'à 90 jours</td><td>Oui, uniquement après votre accord</td></tr>
         <tr><td><code>_ga</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Distingue un visiteur d'un autre, pour ne pas compter deux fois la même visite.</td><td>Cookie, jusqu'à 2 ans</td><td>Oui, uniquement après votre accord</td></tr>
         <tr><td><code>_ga_S3SQ25WZMK</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Garde l'état de la session pour notre propriété de mesure.</td><td>Cookie, jusqu'à 2 ans</td><td>Oui, uniquement après votre accord</td></tr>
+        <tr><td><code>gwcc</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Utilisé par l'outil de Google qui affiche son numéro de renvoi à la place du nôtre, si vous venez d'une annonce Google (voir "Le compteur d'appels du site"). Mesure uniquement.</td><td>Cookie, durée que Google ne publie pas</td><td>Oui, uniquement après votre accord</td></tr>
         <tr><td><code>pd_consent</code></td><td>PRO DEBOUCHAGE SRL</td><td>Retient votre réponse, pour ne pas vous reposer la question à chaque page.</td><td>Pas un cookie, une note dans votre navigateur, 182 jours</td><td>Non, strictement nécessaire à votre choix</td></tr>
       </tbody>
     </table></div>
     <p><code>pd_consent</code> n'est pas un cookie, c'est une petite note gardée par votre navigateur. Elle retient votre réponse pour ne pas vous reposer la question à chaque page. Gardée 182 jours, puis la question revient. Elle ne part nulle part et ne contient rien d'autre que votre choix. Les durées de Google sont celles que Google publie et qu'elle peut modifier, d'où le "jusqu'à".</p>
 
+    <h3>Le compteur d'appels du site</h3>
+    <p>Si vous acceptez la mesure des annonces et que vous êtes arrivé par une annonce Google, un outil de Google peut remplacer notre numéro affiché par un numéro de renvoi de Google. Votre appel passe alors par Google et arrive chez nous comme d'habitude. C'est ainsi que nous savons quelles annonces amènent des appels. Google nous montre ensuite, dans notre compte Google Ads&nbsp;: l'heure de l'appel, sa durée, s'il a été pris ou manqué, l'indicatif du pays et de la zone de l'appelant et, pour la plupart des appels de plus de 15 secondes, votre numéro de téléphone. Cet outil peut déposer un cookie, <code>gwcc</code>. Sans votre accord pour la mesure des annonces, cet outil ne se charge pas et vous voyez toujours notre vrai numéro.</p>
+
     <h3>En dehors de l'Union européenne</h3>
-    <p>Si vous acceptez la mesure, Google peut traiter ces données en dehors de l'Union européenne, notamment aux États-Unis. Google le fait dans le cadre de la décision d'adéquation européenne pour les États-Unis et de ses clauses contractuelles types. Les données de mesure des visiteurs européens sont d'abord collectées sur des serveurs européens et votre adresse IP n'est pas conservée par Google.</p>
+    <p>Si vous acceptez la mesure, Google peut traiter ces données en dehors de l'Union européenne, notamment aux États-Unis. Google le fait dans le cadre de la décision d'adéquation européenne pour les États-Unis et de ses clauses contractuelles types. Votre adresse IP&nbsp;: tant que vous n'avez pas accepté la mesure des annonces, Google Ads la tronque (il en coupe une partie) dès qu'il la reçoit. Si vous l'acceptez, Google Ads la reçoit en entier. Google Analytics, lui, ne se charge que si vous l'acceptez. Il traite alors l'adresse IP des visiteurs européens sur des serveurs européens, s'en sert seulement pour déduire votre localisation, puis l'efface aussitôt, sans l'enregistrer.</p>
     <p>Les polices de caractères et les images restent hébergées sur notre propre serveur. Tant que vous n'avez pas accepté, votre navigateur ne demande aucun fichier à une autre société en ouvrant cette page.</p>`,
 
   nl: `    <h2>Cookies en meting</h2>
-    <p>Deze site gebruikt één extern instrument&nbsp;: de meting van Google (Google Ireland Ltd, Gordon House, Barrow Street, Dublin 4, Ierland). Die vertelt ons of onze Google-advertenties telefoontjes opleveren, en welke pagina's gelezen worden.</p>
-    <p>Er wordt niets geladen voor u kiest. Een banner toont "Alles weigeren" en "Alles aanvaarden", even zichtbaar en even eenvoudig, en een knop "Zelf kiezen" waarmee u de ene meting kunt aanvaarden en de andere weigeren. Beide schakelaars staan uit zolang u ze niet zelf aanzet. Wij doen geen gepersonaliseerde reclame en geen retargeting&nbsp;: advertentiepersonalisatie blijft geweigerd, ook als u alles aanvaardt.</p>
-    <p>De rechtsgrond is uw toestemming. U kunt die altijd intrekken via de link "Cookies en meting" onderaan elke pagina&nbsp;: even eenvoudig als ze geven. Weigeren wist de betrokken cookies.</p>
+    <p>Deze site gebruikt één extern instrument: de meting van Google (Google Ireland Ltd, Gordon House, Barrow Street, Dublin 4, Ierland). Die vertelt ons of onze Google-advertenties telefoontjes opleveren, en welke pagina's gelezen worden.</p>
+    <p>Er wordt niets geladen voor u kiest. Een banner toont "Alles weigeren" en "Alles aanvaarden", even zichtbaar en even eenvoudig, en een knop "Zelf kiezen" waarmee u de ene meting kunt aanvaarden en de andere weigeren. Beide schakelaars staan uit zolang u ze niet zelf aanzet. Wij doen geen gepersonaliseerde reclame en geen retargeting: advertentiepersonalisatie blijft geweigerd, ook als u alles aanvaardt.</p>
+    <p>De rechtsgrond is uw toestemming. U kunt die altijd intrekken via de link "Cookies en meting" onderaan elke pagina: even eenvoudig als ze geven. Weigeren wist de betrokken cookies.</p>
 
     <h3>Wat er op uw toestel komt</h3>
     <p>Dit is precies wat er op uw toestel komt als u aanvaardt, en wat er bewaard blijft ook als u weigert.</p>
@@ -207,15 +212,20 @@ const COOKIES_TAG = {
       <thead><tr><th>Naam</th><th>Geplaatst door</th><th>Waarvoor</th><th>Soort en duur</th><th>Toestemming</th></tr></thead>
       <tbody>
         <tr><td><code>_gcl_au</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Koppelt een telefoontje of een WhatsApp-klik aan de Google-advertentie die u bracht, zodat we weten welke advertenties werk opleveren. Enkel meting, geen personalisatie.</td><td>Cookie, tot 90 dagen</td><td>Ja, alleen na uw akkoord</td></tr>
+        <tr><td><code>_gcl_aw</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Bewaart de code van de klik op de Google-advertentie die u bracht, om uw oproep aan die advertentie te koppelen. Enkel meting.</td><td>Cookie, tot 90 dagen</td><td>Ja, alleen na uw akkoord</td></tr>
         <tr><td><code>_ga</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Onderscheidt de ene bezoeker van de andere, zodat hetzelfde bezoek niet dubbel geteld wordt.</td><td>Cookie, tot 2 jaar</td><td>Ja, alleen na uw akkoord</td></tr>
         <tr><td><code>_ga_S3SQ25WZMK</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Houdt de sessiestatus bij voor onze meting.</td><td>Cookie, tot 2 jaar</td><td>Ja, alleen na uw akkoord</td></tr>
+        <tr><td><code>gwcc</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Gebruikt door het instrument van Google dat zijn doorschakelnummer toont in de plaats van het onze, als u via een Google-advertentie kwam (zie "De oproepteller van de site"). Enkel meting.</td><td>Cookie, duur die Google niet publiceert</td><td>Ja, alleen na uw akkoord</td></tr>
         <tr><td><code>pd_consent</code></td><td>PRO DEBOUCHAGE BV</td><td>Onthoudt uw antwoord, zodat we het niet op elke pagina opnieuw vragen.</td><td>Geen cookie, een notitie in uw browser, 182 dagen</td><td>Nee, strikt noodzakelijk voor uw keuze</td></tr>
       </tbody>
     </table></div>
     <p><code>pd_consent</code> is geen cookie, maar een klein briefje dat uw browser bijhoudt. Het onthoudt uw antwoord zodat we het niet op elke pagina opnieuw vragen. Het blijft 182 dagen staan, daarna komt de vraag terug. Het gaat nergens naartoe en bevat niets anders dan uw keuze. De termijnen van Google zijn de termijnen die Google publiceert en kan wijzigen, vandaar "tot".</p>
 
+    <h3>De oproepteller van de site</h3>
+    <p>Aanvaardt u de advertentiemeting en kwam u via een Google-advertentie, dan kan een instrument van Google het nummer op onze site vervangen door een doorschakelnummer van Google. Uw oproep loopt dan via Google en komt gewoon bij ons toe. Zo weten we welke advertenties telefoontjes opleveren. Google toont ons daarna in ons Google Ads-account: het tijdstip van de oproep, hoe lang ze duurde, of ze beantwoord of gemist werd, de landcode en het zonenummer van de beller en, voor de meeste oproepen van meer dan 15 seconden, uw telefoonnummer. Dit instrument kan een cookie plaatsen, <code>gwcc</code>. Zonder uw akkoord voor de advertentiemeting laadt dit instrument niet en ziet u altijd ons echte nummer.</p>
+
     <h3>Buiten de Europese Unie</h3>
-    <p>Aanvaardt u de meting, dan kan Google die gegevens ook buiten de Europese Unie verwerken, onder meer in de Verenigde Staten. Google doet dat op basis van het Europese adequaatheidsbesluit voor de Verenigde Staten en zijn standaardcontractbepalingen. De meetgegevens van Europese bezoekers worden eerst op Europese servers verzameld en uw IP-adres wordt niet door Google bewaard.</p>
+    <p>Aanvaardt u de meting, dan kan Google die gegevens ook buiten de Europese Unie verwerken, onder meer in de Verenigde Staten. Google doet dat op basis van het Europese adequaatheidsbesluit voor de Verenigde Staten en zijn standaardcontractbepalingen. Uw IP-adres: zolang u de advertentiemeting niet aanvaardt, knipt Google Ads er een stuk van af zodra het binnenkomt. Aanvaardt u ze, dan krijgt Google Ads het volledig. Google Analytics laadt alleen als u het aanvaardt. Het verwerkt het IP-adres van Europese bezoekers dan op Europese servers, gebruikt het alleen om uw locatie af te leiden en wist het meteen, zonder het op te slaan.</p>
     <p>De lettertypes en de foto's blijven op onze eigen server staan. Zolang u niet aanvaardt, vraagt uw browser bij het openen van deze pagina geen enkel bestand op bij een ander bedrijf.</p>`,
 
   en: `    <h2>Cookies and measurement</h2>
@@ -229,15 +239,20 @@ const COOKIES_TAG = {
       <thead><tr><th>Name</th><th>Set by</th><th>What it does</th><th>Type and lifetime</th><th>Consent</th></tr></thead>
       <tbody>
         <tr><td><code>_gcl_au</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Links a call or a WhatsApp click back to the Google ad that brought you, so we know which ads produce work. Measurement only, no personalisation.</td><td>Cookie, up to 90 days</td><td>Yes, only after you accept</td></tr>
+        <tr><td><code>_gcl_aw</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Keeps the code of the Google ad click that brought you, to link your call to that ad. Measurement only.</td><td>Cookie, up to 90 days</td><td>Yes, only after you accept</td></tr>
         <tr><td><code>_ga</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Tells one visitor from another, so the same visit is not counted twice.</td><td>Cookie, up to 2 years</td><td>Yes, only after you accept</td></tr>
         <tr><td><code>_ga_S3SQ25WZMK</code></td><td>Google Ireland Ltd (Google Analytics)</td><td>Keeps the session state for our measurement property.</td><td>Cookie, up to 2 years</td><td>Yes, only after you accept</td></tr>
+        <tr><td><code>gwcc</code></td><td>Google Ireland Ltd (Google Ads)</td><td>Used by the Google tool that shows its forwarding number instead of ours, if you came from a Google ad (see "The site's call counter"). Measurement only.</td><td>Cookie, lifetime Google doesn't publish</td><td>Yes, only after you accept</td></tr>
         <tr><td><code>pd_consent</code></td><td>PRO DEBOUCHAGE SRL</td><td>Remembers your answer, so we do not ask again on every page.</td><td>Not a cookie, a note in your browser, 182 days</td><td>No, strictly necessary for the choice you made</td></tr>
       </tbody>
     </table></div>
     <p><code>pd_consent</code> is not a cookie, it is a small note your browser keeps. It remembers your answer so we do not ask again on every page. It stays 182 days, then the question comes back. It goes nowhere and holds nothing but your choice. Google's lifetimes are the ones Google publishes and can change, which is why they say "up to".</p>
 
+    <h3>The site's call counter</h3>
+    <p>If you accept ad measurement and you came from a Google ad, a Google tool may swap the number we show for a Google forwarding number. Your call then goes through Google and still reaches us as usual. That's how we know which ads bring in calls. Google then shows us, in our Google Ads account: the time of the call, how long it lasted, whether it was answered or missed, the caller's country and area code and, for most calls over 15 seconds, your phone number. This tool may set a cookie, <code>gwcc</code>. Without your yes to ad measurement, this tool doesn't load and you always see our real number.</p>
+
     <h3>Outside the European Union</h3>
-    <p>If you accept the measurement, Google may process that data outside the European Union, including in the United States. Google does so under the European adequacy decision for the United States and its standard contractual clauses. Measurement data from European visitors is collected on European servers first, and your IP address is not kept by Google.</p>
+    <p>If you accept the measurement, Google may process that data outside the European Union, including in the United States. Google does so under the European adequacy decision for the United States and its standard contractual clauses. Your IP address: until you accept ad measurement, Google Ads truncates it (cuts part of it off) as soon as it arrives. If you accept, Google Ads gets it in full. Google Analytics only loads if you accept it. It then handles European visitors' IP addresses on European servers, uses them only to work out your location, and deletes them straight away without storing them.</p>
     <p>The fonts and the photos stay on our own server. Until you accept, your browser doesn't request a single file from another company when opening this page.</p>`,
 };
 
@@ -251,7 +266,7 @@ const RECIP_TAG = {
 };
 const BASIS_TAG = {
   fr: `\n      <li><strong>Savoir si nos annonces amènent des appels</strong>&nbsp;: votre consentement, que vous pouvez retirer quand vous voulez.</li>`,
-  nl: `\n      <li><strong>Weten of onze advertenties telefoontjes opleveren</strong>&nbsp;: uw toestemming, die u altijd kunt intrekken.</li>`,
+  nl: `\n      <li><strong>Weten of onze advertenties telefoontjes opleveren</strong>: uw toestemming, die u altijd kunt intrekken.</li>`,
   en: `\n      <li><strong>Knowing whether our ads bring in calls</strong>: your consent, which you can withdraw whenever you want.</li>`,
 };
 
@@ -274,12 +289,12 @@ const ADV_SWAP = {
   ],
   nl: [
     [`<p>Er wordt niets geladen voor u kiest. Een banner toont`,
-     `<p>Alleen het script van Google Ads laadt zodra u de pagina opent, nog voor u kiest. Zolang u niet aanvaardt, en ook als u weigert, plaatst het geen cookies en leest het er geen. Bij het openen van de pagina stuurt het zonder cookie naar Google&nbsp;: het tijdstip, het adres van de pagina en dat van de pagina waar u vandaan komt, of dat adres een code van een advertentieklik bevatte (de code zelf wordt vervangen door een 0), of u aanvaard hebt of niet, een willekeurig getal voor die paginalading, en enkele technische instellingen van het script. Tikt u op een bel- of WhatsApp-knop, dan stuurt het ook, zonder cookie, om de oproep te tellen&nbsp;: de titel van de pagina, de schermgrootte, het model van uw toestel, het systeem, de browser en hun versies. Zoals bij elke verbinding ziet Google ook uw IP-adres en het type browser. Er wordt geen herkenningsnummer bewaard tussen twee pagina's. De bezoekersmeting (Google Analytics) laadt alleen als u die aanvaardt. Aanvaardt u, dan kan Google cookies plaatsen voor de advertentiemeting en de bezoekersmeting, voor de termijnen in de tabel hieronder.</p>
+     `<p>Alleen het script van Google Ads laadt zodra u de pagina opent, nog voor u kiest. Zolang u niet aanvaardt, en ook als u weigert, plaatst het geen cookies en leest het er geen. Bij het openen van de pagina stuurt het zonder cookie naar Google: het tijdstip, het adres van de pagina en dat van de pagina waar u vandaan komt, of dat adres een code van een advertentieklik bevatte (de code zelf wordt vervangen door een 0), of u aanvaard hebt of niet, een willekeurig getal voor die paginalading, en enkele technische instellingen van het script. Tikt u op een bel- of WhatsApp-knop, dan stuurt het ook, zonder cookie, om de oproep te tellen: de titel van de pagina, de schermgrootte, het model van uw toestel, het systeem, de browser en hun versies. Zoals bij elke verbinding ziet Google ook uw IP-adres en het type browser. Er wordt geen herkenningsnummer bewaard tussen twee pagina's. De bezoekersmeting (Google Analytics) laadt alleen als u die aanvaardt. Aanvaardt u, dan kan Google cookies plaatsen voor de advertentiemeting en de bezoekersmeting, voor de termijnen in de tabel hieronder.</p>
     <p>Een banner toont`],
     [`<p>De rechtsgrond is uw toestemming.`, `<p>Voor de cookies is de rechtsgrond uw toestemming.`],
-    [`Weigeren wist de betrokken cookies.</p>`, `Weigeren wist de betrokken cookies. De advertentiemeting zonder cookies steunt op ons gerechtvaardigd belang&nbsp;: weten of onze Google-advertenties telefoontjes opleveren.</p>`],
+    [`Weigeren wist de betrokken cookies.</p>`, `Weigeren wist de betrokken cookies. De advertentiemeting zonder cookies steunt op ons gerechtvaardigd belang: weten of onze Google-advertenties telefoontjes opleveren.</p>`],
     [`<p>Aanvaardt u de meting, dan kan Google die gegevens ook buiten de Europese Unie verwerken`, `<p>Google kan de meetgegevens ook buiten de Europese Unie verwerken`],
-    [`Zolang u niet aanvaardt, vraagt uw browser bij het openen van deze pagina geen enkel bestand op bij een ander bedrijf.`, `Bij het openen van deze pagina contacteert uw browser maar één ander bedrijf&nbsp;: Google, voor de meting die hierboven staat beschreven.`],
+    [`Zolang u niet aanvaardt, vraagt uw browser bij het openen van deze pagina geen enkel bestand op bij een ander bedrijf.`, `Bij het openen van deze pagina contacteert uw browser maar één ander bedrijf: Google, voor de meting die hierboven staat beschreven.`],
   ],
   en: [
     [`<p>Nothing loads before you choose. A banner offers`,
@@ -301,9 +316,9 @@ const RECIP_ADV = {
   en: ` Google Ireland Ltd, for the measurement described above (Google Ads, with no cookies until you accept, and Google Analytics, only if you accept it), and only for that measurement.`,
 };
 const BASIS_ADV = {
-  fr: `\n      <li><strong>Savoir si nos annonces amènent des appels, avec les cookies de Google</strong>&nbsp;: votre consentement, que vous pouvez retirer quand vous voulez.</li>\n      <li><strong>La mesure des annonces sans cookie, avant votre choix ou si vous refusez</strong>&nbsp;: notre intérêt légitime à savoir si nos annonces amènent des appels.</li>`,
-  nl: `\n      <li><strong>Weten of onze advertenties telefoontjes opleveren, met de cookies van Google</strong>&nbsp;: uw toestemming, die u altijd kunt intrekken.</li>\n      <li><strong>De advertentiemeting zonder cookies, voor u kiest of als u weigert</strong>&nbsp;: ons gerechtvaardigd belang om te weten of onze advertenties telefoontjes opleveren.</li>`,
-  en: `\n      <li><strong>Knowing whether our ads bring in calls, with Google's cookies</strong>: your consent, which you can withdraw whenever you want.</li>\n      <li><strong>The ad measurement without cookies, before you choose or if you refuse</strong>: our legitimate interest in knowing whether our ads bring in calls.</li>`,
+  fr: `\n      <li><strong>Savoir si nos annonces amènent des appels, avec les cookies et le compteur d'appels de Google</strong>&nbsp;: votre consentement, que vous pouvez retirer quand vous voulez.</li>\n      <li><strong>La mesure des annonces sans cookie, avant votre choix ou si vous refusez</strong>&nbsp;: notre intérêt légitime à savoir si nos annonces amènent des appels.</li>`,
+  nl: `\n      <li><strong>Weten of onze advertenties telefoontjes opleveren, met de cookies en de oproepteller van Google</strong>: uw toestemming, die u altijd kunt intrekken.</li>\n      <li><strong>De advertentiemeting zonder cookies, voor u kiest of als u weigert</strong>: ons gerechtvaardigd belang om te weten of onze advertenties telefoontjes opleveren.</li>`,
+  en: `\n      <li><strong>Knowing whether our ads bring in calls, with Google's cookies and call counter</strong>: your consent, which you can withdraw whenever you want.</li>\n      <li><strong>The ad measurement without cookies, before you choose or if you refuse</strong>: our legitimate interest in knowing whether our ads bring in calls.</li>`,
 };
 
 module.exports = ADV
