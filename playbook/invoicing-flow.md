@@ -125,6 +125,7 @@ The credit note is its own document, French "note de crédit" and Dutch "creditn
 ## 5. What is still open
 
 - **[Roro]** The work-order question in section 2: does Afrim carry pre-printed work orders and write only the date and the price, with the customer signing? Claude's proposal, not decided.
+- **The accountant questions below (and the RPM line) are drafted as ONE mail, ready to send:** `assets/prepared/accountant-questions-2026-10-17.md` (French, 8 questions). Fady sends it; the answers come back here.
 - **[Fady, ask the accountant in writing]** Septic emptying alone: 6 or 21 percent?
 - **[Fady, ask the accountant in writing]** Camera inspection alone (the 149 euro one): 6 or 21 percent?
 - **[Fady, ask the accountant in writing]** Cellar pumping alone: 6 or 21 percent?
